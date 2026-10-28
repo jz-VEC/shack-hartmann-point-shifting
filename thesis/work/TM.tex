@@ -1641,7 +1641,7 @@ reconstrucción en vivo del software del fabricante que se muestra en el
 Capítulo~\ref{cap:resultados} es sólo una referencia visual del estado del experimento. La
 métrica adoptada es el valor cuadrático medio (RMS) de la diferencia entre ambos frentes
 de onda, calculada después de eliminar el término global de inclinación que pueda quedar
-entre ellos.
+entre ellos, acompañada del valor pico-valle (PV) de esa misma diferencia.
 
 \subsection{Diferencia entre reconstrucciones}\label{sec:diferencia}
 
@@ -1674,6 +1674,26 @@ El indicador final de fidelidad es el RMS del residuo sobre las $N$ microlentes 
 \label{eq:rms}
 \end{equation}
 Este valor es el que se reporta como métrica cuantitativa de la comparación en cada una de las evaluaciones del Capítulo~\ref{cap:resultados}. Hay que subrayar que, en una evaluación con aberración impuesta no nula, el RMS de un frente de onda individual describe la magnitud de la aberración bajo prueba, no la calidad del método; la fidelidad solo queda definida al comparar contra una referencia, y por ello la métrica reportada es siempre el RMS de la \emph{diferencia} entre reconstrucciones. El procedimiento, junto con el tratamiento adicional descrito en la Sección~\ref{sec:segundo-tratamiento} cuando es aplicable, constituye la cadena completa de comparación cuantitativa empleada en este trabajo.
+
+\subsection{Valor pico-valle (PV)}\label{sec:pv}
+
+El valor pico-valle (PV) de un conjunto de alturas $z_i$ es la distancia entre su máximo y
+su mínimo:
+\begin{equation}
+\text{PV} = \max_i\,[z_i] - \min_i\,[z_i].
+\label{eq:pv}
+\end{equation}
+Puede calcularse sobre cualquier superficie muestreada: sobre un frente de onda da la
+amplitud total de la aberración; sobre la diferencia entre dos reconstrucciones, el rango
+completo del residuo. En este trabajo se usa sobre todo en el segundo sentido: el PV de
+$\Delta W'$ (o de $\Delta W''$, cuando interviene el tratamiento de la
+Sección~\ref{sec:segundo-tratamiento}) se calcula sobre los mismos pares emparejados que el
+RMS y se reporta junto a él, el RMS como magnitud típica del residuo y el PV como su
+extensión total. Comparado con el PV del frente de onda del fabricante sobre esos mismos
+puntos, da una idea de qué tan grande es el residuo frente a la amplitud de la aberración
+medida. Como
+el PV de un frente de onda depende del dominio sobre el que se evalúa, en el
+Capítulo~\ref{cap:resultados} se indica en cada caso.
 
 \subsection{Tratamiento del pistón residual entre reconstrucciones sobre dominios asimétricos}\label{sec:segundo-tratamiento}
 
@@ -1999,7 +2019,15 @@ Fig.~\ref{fig:cap5-fig5-5-1} muestra el resultado en vista cenital y la
 Fig.~\ref{fig:cap5-fig5-5-2} en perspectiva tridimensional. La inclinación global que en
 la Fig.~\ref{fig:cap5-fig5-4-1} hacía que ambas nubes descansaran sobre planos distintos
 desaparece, y las dos reconstrucciones quedan ahora sobre superficies cuya escala vertical
-es la propia del modo tetrafoil $Z_{11}$ impuesto por el espejo deformable.
+es la propia del modo tetrafoil $Z_{11}$ impuesto por el espejo deformable. El PV de la
+reconstrucción por corrimiento de puntos, ya sin tip, tilt ni pistón, es de $8.16~\mu$m
+sobre el dominio completo de la lista densificada, que llega al radio de selección
+$R = 1.95$~mm. Ese dominio incluye el anillo entre la pupila del fabricante
+($r \approx 1.9$~mm) y $R$, donde no hay puntos de Thorlabs con los cuales comparar. Si se
+toman únicamente las alturas de nuestra reconstrucción en los puntos emparejados con los
+centros de microlente del fabricante, lo que en adelante llamamos dominio del fabricante,
+el PV es de $7.89~\mu$m, frente a $7.35~\mu$m de la reconstrucción de Thorlabs sobre esos
+mismos puntos.
 
 \begin{figure}[htbp]
   \centering
@@ -2008,7 +2036,9 @@ es la propia del modo tetrafoil $Z_{11}$ impuesto por el espejo deformable.
   remoción de tip, tilt y pistón. \textbf{a)} Reconstrucción de Thorlabs. \textbf{b)}
   Reconstrucción por el método de corrimiento de puntos. Eliminada la inclinación residual
   visible en la Fig.~\ref{fig:cap5-fig5-4-1}, ambos frentes de onda muestran la estructura
-  asociada al modo tetrafoil $Z_{11}$ con magnitudes y formas comparables.}
+  asociada al modo tetrafoil $Z_{11}$ con magnitudes y formas comparables: sobre el
+  dominio del fabricante, el PV es de $7.89~\mu$m para el corrimiento de puntos frente a
+  $7.35~\mu$m para Thorlabs.}
   \label{fig:cap5-fig5-5-2}
 \end{figure}
 
@@ -2030,6 +2060,26 @@ $\lambda/4.4$ a $635$~nm; es mayor que la exactitud nominal del sensor ($\lambda
 Tabla~\ref{tab:ap-wfs}), lo cual es esperable porque no mide el error del sensor sino la
 diferencia entre dos algoritmos de reconstrucción distintos aplicados sobre dominios de
 muestreo distintos.
+
+La Fig.~\ref{fig:cap5-eval1-diferencias} muestra esa diferencia punto a punto
+$\Delta = W - W_{\text{TL}}$ sobre la pupila, antes y después de la remoción de tip, tilt
+y pistón, evaluada sobre los $501$ puntos del dominio del fabricante y con una escala de
+color simétrica alrededor de cero en cada panel. En la diferencia directa domina la
+inclinación relativa entre las dos reconstrucciones; una vez removida, el residuo, con un
+RMS de $0.145~\mu$m y un valor pico-valle de $0.79~\mu$m, se reparte sobre toda la
+pupila.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{cap5-eval1-diferencias-dos-etapas.png}
+  \caption{Diferencia $\Delta = W - W_{\text{TL}}$ punto a punto sobre la pupila en la
+  primera evaluación, sobre los $501$ puntos del dominio del fabricante; cada panel con su
+  escala de color simétrica alrededor de cero. \textbf{a)} Diferencia directa, dominada
+  por la inclinación relativa entre ambas reconstrucciones (RMS = $1.16~\mu$m).
+  \textbf{b)} Tras el ajuste TTP independiente a cada frente de onda: el residuo queda
+  repartido sobre la pupila (RMS = $0.145~\mu$m, PV = $0.79~\mu$m).}
+  \label{fig:cap5-eval1-diferencias}
+\end{figure}
 
 \subsection{Comparación como superficie continua: incremento de resolución espacial}\label{sec:z11-trisurf}
 
@@ -2098,10 +2148,11 @@ directa, no una estimación interpolada a partir de los vecinos.
 \subsection{Resumen cuantitativo de la primera evaluación}\label{sec:z11-tabla-resumen}
 
 La Tabla~\ref{tab:cap5-resumen-eval1} concentra los parámetros geométricos de la región
-evaluada, los planos (tip, tilt y pistón) restados a cada reconstrucción y las dos
-métricas de fidelidad usadas en este trabajo: el RMS de la diferencia entre ambas
-reconstrucciones antes y después de la remoción de tip, tilt y pistón. Solo se reportan
-estas dos métricas porque, como se argumentó en la Sección~\ref{sec:rms}, en una
+evaluada, los planos (tip, tilt y pistón) restados a cada reconstrucción, el RMS de la
+diferencia entre ambas reconstrucciones antes y después de la remoción de tip, tilt y
+pistón con el PV de la diferencia final y, en el bloque ``Otras medidas'', el PV de los
+frentes de onda reconstruidos. Como métricas de fidelidad sólo se reportan las de la diferencia
+porque, como se argumentó en la Sección~\ref{sec:rms}, en una
 evaluación con aberración no nula el RMS de un único frente de onda describe la magnitud
 de la aberración impuesta, no la fidelidad del método; la fidelidad sólo queda definida
 cuando se compara contra una referencia. Esa referencia no es aquí un frente de onda
@@ -2114,7 +2165,11 @@ que ninguno de los dos fija de forma absoluta (Sección~\ref{sec:comparacion}).
 \begin{table}[htbp]
 \centering
 \caption{Resumen cuantitativo de la primera evaluación: dirección $(m,n)=(1,2)$,
-aberración $Z_{11}$ (tetrafoil), amplitud relativa del software $-0.99$.}
+aberración $Z_{11}$ (tetrafoil), amplitud relativa del software $-0.99$. El bloque
+``Otras medidas'' da el PV de los frentes de onda reconstruidos, sin tip, tilt ni pistón:
+sobre el dominio del fabricante las dos reconstrucciones son comparables; el valor sobre
+el dominio completo incluye el anillo exterior sin referencia y no entra en la
+comparación.}
 \label{tab:cap5-resumen-eval1}
 \small
 \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xl}
@@ -2132,6 +2187,12 @@ Plano restado, Thorlabs $(a, b, c)$              & $(5.06\times 10^{-4},\ 5.14\t
 \hline
 RMS diferencia directa                   & $1.16~\mu$m \\
 RMS diferencia tras TTP independiente    & $0.145~\mu$m \\
+PV diferencia tras TTP independiente     & $0.79~\mu$m \\
+\hline
+\multicolumn{2}{l}{\textit{Otras medidas: PV de los frentes de onda reconstruidos}} \\
+PV de la reconstrucción de Thorlabs (dominio del fabricante) & $7.35~\mu$m \\
+PV del corrimiento de puntos (dominio del fabricante)        & $7.89~\mu$m \\
+PV del corrimiento de puntos (dominio completo, $R$)         & $8.16~\mu$m \\
 \hline
 \end{tabularx}
 \end{table}
@@ -2361,7 +2422,8 @@ vistas, sobre la misma región evaluada por Thorlabs.
   (a, b, c). La forma del modo esférico $Z_{13}$ aparece preservada en ambas
   reconstrucciones, ahora alineadas verticalmente; el método de corrimiento de puntos
   cubre la misma región evaluada por Thorlabs con un número considerablemente mayor de
-  puntos.}
+  puntos. Sobre el dominio del fabricante, el PV es de $5.44~\mu$m para el corrimiento de
+  puntos frente a $5.32~\mu$m para Thorlabs.}
   \label{fig:cap5-eval2-post-2do-desplazamiento}
 \end{figure}
 
@@ -2371,22 +2433,31 @@ esta comparación se hace explícitamente sobre el área que Thorlabs reconstruy
 toda la región que el método de corrimiento de puntos cubre; en esa misma área, nuestra
 reconstrucción contiene un número considerablemente mayor de puntos (lista densificada
 frente al mallado canónico del fabricante), de modo que entrega una versión espacialmente
-más resuelta del mismo frente de onda sobre el mismo dominio comparable. La concordancia
-visual y el descenso del RMS de $0.67$ a $0.14~\mu$m sostienen, en conjunto, que el
-segundo tratamiento era necesario para que la métrica reportada describa el error real
-entre las dos reconstrucciones y no el sesgo de pistón introducido por la diferencia de
-muestreos. La cifra de $0.14~\mu$m es la métrica de fidelidad representativa de esta
-evaluación.
+más resuelta del mismo frente de onda sobre el mismo dominio comparable. El PV de nuestra
+reconstrucción es de $8.04~\mu$m sobre el dominio completo ($R = 2.10$~mm, con su anillo
+exterior sin puntos de Thorlabs) y de $5.44~\mu$m sobre el dominio del fabricante, frente
+a $5.32~\mu$m de la reconstrucción de Thorlabs. La concordancia visual y el descenso del
+RMS de $0.67$ a $0.14~\mu$m sostienen, en conjunto, que el segundo tratamiento era
+necesario para que la métrica reportada describa el error real entre las dos
+reconstrucciones y no el sesgo de pistón introducido por la diferencia de muestreos. La
+cifra de $0.14~\mu$m, calculada tras el segundo tratamiento, es la métrica de fidelidad
+representativa de esta evaluación, con un valor pico-valle de $0.78~\mu$m; su mapa punto a
+punto es el panel \textbf{(c)} de la Fig.~\ref{fig:cap5-eval2-diferencias-tres-etapas}.
 
 \subsection{Resumen cuantitativo de la segunda evaluación}\label{sec:z13-tabla-resumen}
 
 La Tabla~\ref{tab:cap5-resumen-eval2} recoge los valores resultantes del análisis para
-referencia.
+referencia: las métricas RMS en orden de procesado, el PV de la diferencia final y, en el
+bloque ``Otras medidas'', el PV de los frentes de onda reconstruidos.
 
 \begin{table}[htbp]
 \centering
 \caption{Resumen cuantitativo de la segunda evaluación: dirección $(m,n)=(1,2)$,
-aberración $Z_{13}$ (esférica primaria), amplitud relativa del software $-0.97$.}
+aberración $Z_{13}$ (esférica primaria), amplitud relativa del software $-0.97$. El
+bloque ``Otras medidas'' da el PV de los frentes de onda reconstruidos, sin tip, tilt ni
+pistón y tras el segundo tratamiento: sobre el dominio del fabricante las dos
+reconstrucciones son comparables; el valor sobre el dominio completo incluye el anillo
+exterior sin referencia y no entra en la comparación.}
 \label{tab:cap5-resumen-eval2}
 \small
 \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xl}
@@ -2405,6 +2476,12 @@ Plano restado, Thorlabs $(a, b, c)$              & $(5.57\times 10^{-4},\ 3.18\t
 RMS diferencia directa                          & $1.18~\mu$m \\
 RMS diferencia tras TTP independiente       & $0.67~\mu$m \\
 RMS diferencia tras segundo tratamiento     & $0.14~\mu$m \\
+PV diferencia tras segundo tratamiento      & $0.78~\mu$m \\
+\hline
+\multicolumn{2}{l}{\textit{Otras medidas: PV de los frentes de onda reconstruidos}} \\
+PV de la reconstrucción de Thorlabs (dominio del fabricante) & $5.32~\mu$m \\
+PV del corrimiento de puntos (dominio del fabricante)        & $5.44~\mu$m \\
+PV del corrimiento de puntos (dominio completo, $R$)         & $8.04~\mu$m \\
 \hline
 \end{tabularx}
 \end{table}
@@ -2514,7 +2591,10 @@ La misma reconstrucción puede representarse como superficie triangulada para ev
 continuidad del frente de onda reconstruido. La Fig.~\ref{fig:cap5-eval3-fig5} muestra el
 resultado, donde ambos frentes de onda presentan la misma forma global asociada al modo
 esférico $Z_{13}$ y la diferencia en densidad de la triangulación refleja directamente el
-factor $\varepsilon=10$.
+factor $\varepsilon=10$. Sobre el dominio completo ($R = 2.10$~mm, con su anillo exterior
+sin puntos de Thorlabs) el PV de nuestra reconstrucción es de $8.63~\mu$m; sobre el
+dominio del fabricante es de $5.72~\mu$m, frente a $5.44~\mu$m de la reconstrucción de
+Thorlabs.
 
 \begin{figure}[htbp]
   \centering
@@ -2555,20 +2635,47 @@ factor $\varepsilon=10$.
   paneles refleja directamente el factor $\varepsilon=10$. Las escalas verticales de los
   paneles no coinciden porque los dominios difieren: el fabricante entrega su
   reconstrucción sólo en la región central, mientras que la lista densificada se extiende
-  hasta el radio de selección $R$, donde la aberración esférica alcanza valores mayores.}
+  hasta el radio de selección $R$, donde la aberración esférica alcanza valores mayores
+  (PV de $8.63~\mu$m sobre el dominio completo). Sobre el dominio del fabricante, el PV es
+  de $5.72~\mu$m para el corrimiento de puntos frente a $5.44~\mu$m para Thorlabs.}
   \label{fig:cap5-eval3-fig5}
+\end{figure}
+
+La Fig.~\ref{fig:cap5-eval3-diferencias} muestra la diferencia punto a punto
+$\Delta = W - W_{\text{TL}}$ en las tres etapas del procesado, con el mismo formato que la
+Fig.~\ref{fig:cap5-eval2-diferencias-tres-etapas} de la segunda evaluación. La
+diferencia directa está dominada por la inclinación relativa entre las reconstrucciones
+(RMS = $1.12~\mu$m); tras el ajuste TTP independiente queda el pistón relativo entre
+dominios de muestreo distintos (RMS = $0.71~\mu$m); y tras el segundo tratamiento el
+residuo se reduce a un RMS de $0.13~\mu$m, con un valor pico-valle de $0.73~\mu$m.
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=\linewidth]{cap5-eval3-diferencias-tres-etapas.png}
+  \caption{Diferencia $\Delta = W - W_{\text{TL}}$ punto a punto sobre la pupila en la
+  tercera evaluación, sobre los $501$ puntos del dominio del fabricante; cada panel con su
+  escala de color simétrica alrededor de cero. \textbf{a)} Diferencia directa (RMS =
+  $1.12~\mu$m). \textbf{b)} Tras el ajuste TTP independiente: persiste el pistón relativo
+  entre dominios (RMS = $0.71~\mu$m). \textbf{c)} Tras el segundo tratamiento (RMS =
+  $0.13~\mu$m, PV = $0.73~\mu$m).}
+  \label{fig:cap5-eval3-diferencias}
 \end{figure}
 
 \subsection{Resumen cuantitativo de la tercera evaluación}\label{sec:z13-m1n3-tabla-resumen}
 
 La Tabla~\ref{tab:cap5-resumen-eval3} concentra los parámetros geométricos, los planos
-restados a cada reconstrucción y las tres métricas de fidelidad obtenidas en orden de
-procesado.
+restados a cada reconstrucción, las tres métricas RMS de fidelidad obtenidas en orden de
+procesado, el PV de la diferencia final y, en el bloque ``Otras medidas'', el PV de los
+frentes de onda reconstruidos.
 
 \begin{table}[htbp]
 \centering
 \caption{Resumen cuantitativo de la tercera evaluación: dirección $(m,n)=(1,3)$,
-aberración $Z_{13}$ (esférica primaria), amplitud relativa del software $-0.92$.}
+aberración $Z_{13}$ (esférica primaria), amplitud relativa del software $-0.92$. El
+bloque ``Otras medidas'' da el PV de los frentes de onda reconstruidos, sin tip, tilt ni
+pistón y tras el segundo tratamiento: sobre el dominio del fabricante las dos
+reconstrucciones son comparables; el valor sobre el dominio completo incluye el anillo
+exterior sin referencia y no entra en la comparación.}
 \label{tab:cap5-resumen-eval3}
 \small
 \begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}Xl}
@@ -2587,6 +2694,12 @@ Plano restado, Thorlabs $(a, b, c)$              & $(6.10\times 10^{-4},\ 6.13\t
 RMS diferencia directa                          & $1.12~\mu$m \\
 RMS diferencia tras TTP independiente       & $0.71~\mu$m \\
 RMS diferencia tras segundo tratamiento     & $0.13~\mu$m \\
+PV diferencia tras segundo tratamiento      & $0.73~\mu$m \\
+\hline
+\multicolumn{2}{l}{\textit{Otras medidas: PV de los frentes de onda reconstruidos}} \\
+PV de la reconstrucción de Thorlabs (dominio del fabricante) & $5.44~\mu$m \\
+PV del corrimiento de puntos (dominio del fabricante)        & $5.72~\mu$m \\
+PV del corrimiento de puntos (dominio completo, $R$)         & $8.63~\mu$m \\
 \hline
 \end{tabularx}
 \end{table}
@@ -2607,7 +2720,8 @@ Tabla~\ref{tab:modos-dm}), no un coeficiente Zernike calculado sobre la reconstr
 fila ``RMS final'' corresponde a la métrica de fidelidad principal: en la evaluación 1 al
 residuo tras el ajuste TTP independiente (el segundo tratamiento resulta innecesario, como
 se discute más adelante); en las evaluaciones 2 y 3, al residuo tras el segundo
-tratamiento descrito en la Sección~\ref{sec:eval2-segundo-tratamiento}. En las tres
+tratamiento descrito en la Sección~\ref{sec:eval2-segundo-tratamiento}. La fila ``PV
+diferencia final'' es el pico-valle de ese mismo residuo. En las tres
 evaluaciones el modo del espejo se activó con amplitud negativa cercana al extremo del
 deslizador ($-0.99$, $-0.97$ y $-0.92$ respectivamente, en el intervalo $[-1,+1]$ del
 software); las dos últimas comparten el mismo modo ($Z_{13}$) pero distinta dirección de
@@ -2626,6 +2740,33 @@ Puntos reconstruidos        & $2638$            & $3082$            & $6154$    
 RMS diferencia directa          & $1.16~\mu$m       & $1.18~\mu$m       & $1.12~\mu$m       \\
 RMS diferencia post-TTP     & $0.145~\mu$m      & $0.67~\mu$m       & $0.71~\mu$m       \\
 RMS diferencia final        & $0.145~\mu$m      & $0.14~\mu$m       & $0.13~\mu$m       \\
+PV diferencia final         & $0.79~\mu$m       & $0.78~\mu$m       & $0.73~\mu$m       \\
+\hline
+\end{tabularx}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\caption{Otras medidas de las tres evaluaciones: PV de los frentes de onda reconstruidos,
+sin tip, tilt ni pistón (y tras el segundo tratamiento en las evaluaciones 2 y 3). Sobre
+el dominio del fabricante, es decir, en las alturas de nuestra reconstrucción tomadas en
+los puntos emparejados con los centros de microlente de Thorlabs, las dos reconstrucciones
+dan amplitudes comparables, con la del corrimiento de puntos ligeramente mayor en las
+tres evaluaciones. El valor sobre el dominio completo de la lista densificada, que llega
+al radio de selección $R$ y rebasa la pupila del fabricante ($\approx 1.9$~mm de radio),
+incluye el anillo exterior donde no hay puntos de Thorlabs; por eso es mayor, tanto más
+cuanto más ancho es ese anillo ($0.05$~mm en la primera evaluación, $\approx 0.2$~mm en
+las otras dos), y no entra en la comparación.}
+\label{tab:cap5-otras-medidas}
+\small
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}X*{3}{>{\centering\arraybackslash}p{60pt}}}
+\hline
+\textbf{Cantidad} & \textbf{Eval. 1} & \textbf{Eval. 2} & \textbf{Eval. 3} \\
+\hline
+Radio de selección $R$ (dominio completo)                    & $1.95$~mm   & $2.10$~mm   & $2.10$~mm   \\
+PV de la reconstrucción de Thorlabs (dominio del fabricante) & $7.35~\mu$m & $5.32~\mu$m & $5.44~\mu$m \\
+PV del corrimiento de puntos (dominio del fabricante)        & $7.89~\mu$m & $5.44~\mu$m & $5.72~\mu$m \\
+PV del corrimiento de puntos (dominio completo, $R$)         & $8.16~\mu$m & $8.04~\mu$m & $8.63~\mu$m \\
 \hline
 \end{tabularx}
 \end{table}
@@ -2639,6 +2780,13 @@ frente a esférico $Z_{13}$), en la dirección de barrido $(m,n)$ y en el factor
 densificación $\varepsilon$; es decir, el método produce frentes de onda cuya diferencia
 respecto a la reconstrucción del fabricante se mantiene estable frente a cambios
 sustanciales en la geometría experimental.
+
+El PV de la diferencia final es de $0.79$, $0.78$ y $0.73~\mu$m en las evaluaciones 1, 2
+y 3, frente a $7.35$, $5.32$ y $5.44~\mu$m del PV de la reconstrucción de Thorlabs, ambos
+sobre el dominio del fabricante. La Tabla~\ref{tab:cap5-otras-medidas} reúne los PV de
+los frentes de onda reconstruidos: sobre esos mismos puntos, el de nuestra reconstrucción
+es de $7.89$, $5.44$ y $5.72~\mu$m; los del dominio completo incluyen el anillo exterior
+sin referencia y no entran en la comparación.
 
 El comportamiento por evaluación de la columna RMS post-TTP merece un comentario, porque
 entre las evaluaciones 2 y 3 y la 1 hay un salto aparente que el segundo tratamiento
@@ -2956,7 +3104,7 @@ copias de trabajo utilizadas en las tres evaluaciones del
 Capítulo~\ref{cap:resultados}, se encuentran en el siguiente repositorio público:
 
 \begin{center}
-\texttt{https://github.com/jz-VEC/shack-hartmann-point-shifting}
+\url{https://github.com/jz-VEC/shack-hartmann-point-shifting}
 \end{center}
 
 \paragraph{Estructura del repositorio.}

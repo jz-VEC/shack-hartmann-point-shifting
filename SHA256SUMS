@@ -2,7 +2,7 @@
 053e9d9efd4a99431273236515d7e280da01bd9f23959823bdccdb26f0dac2c8  ./.gitignore
 f8cfe6776bd0a6e3fa4b68afc1c5b4ee82dc762bed008d0461f2c8cc5e76aaed  ./DATA_MANIFEST.md
 17cfc5f0d6f262804f9730af34db035f20c3ae2c0fb6494d2b7351c663bf6070  ./LICENSE
-59978c6e81709aeffef5bcc94030b8f74197249f74441c037dcf2bc3ea9a9bc5  ./README.md
+88bc33e0763257aafe6f6b6f6cb776abdbe6baba84d6f2e16791221739457d8e  ./README.md
 65046bdbcc67e5c7f7bbfd1d18e8537bfd67be6ca2d03dd59c9b3d2a88f2ab14  ./REPRODUCIBILITY.md
 dbe9a37ae9b7dd3afa8b9145e0c5217a440bc0a69d1ef6dc640dfd26b902d3f9  ./THIRD_PARTY_NOTICES.md
 595fa50ac853f0024a8d737cbef8e671177558dbd1e259825d6980309cef48e5  ./data/README.md
@@ -235,6 +235,7 @@ fd2f9de9a63552af37cb71c880294db316c2ae8f68958c66048dc29caf8f7e43  ./thesis/asset
 088678b4789b5fe3dc8ba5af5c6cb3fa8a014a16be8dc3bb62cb1f1bd65e6c86  ./thesis/assets/images/cap4-centroides-nan-v2.png
 277eaa367964e35ed34ac092c156ad9f72d15e250a43b7dc780f800133136c2e  ./thesis/assets/images/cap4-shg-crudo-2.png
 6621a8ff98092ba771c727a70950da80ed7ed9e97943eda40d689a784192ec58  ./thesis/assets/images/cap5-centros-centroides-caminos.png
+9e50926802b2e02fbd92a0e0c48fa286cf3ba8e81c0d624ac57c03ca322e18c1  ./thesis/assets/images/cap5-eval1-diferencias-dos-etapas.png
 3eea1a2ebea8c9449f6a379ab8855df61e6b29a26818bdb91a21800e3ed90c1e  ./thesis/assets/images/cap5-eval2-diferencias-tres-etapas.png
 9b4a25926ef2177831879b4a2a158f3ac016de37a4f0a1a3b315a0f275902584  ./thesis/assets/images/cap5-eval2-fig1-setup-thorlabs.png
 d27ad679b665126618d5b960ca154f1e960c15f3431b7b9eed2f2872b09fc6bd  ./thesis/assets/images/cap5-eval2-fig2-seleccion-recon-tilt.png
@@ -244,6 +245,7 @@ f142cc91f3653b0793c7024b6f4f8c5640ccdfe4d39a4653481ee98b4c8e6d51  ./thesis/asset
 7090e01d029e9f0c489d5f55e9ed01f8514f24b2e97e0ef8b8031cebcb40f5a8  ./thesis/assets/images/cap5-eval2-fig6-trisurf-sin-ttp.png
 59335acb76d5df9a55407aedb11bbbca4323d66c101990de1e4f2119fc5f77a0  ./thesis/assets/images/cap5-eval2-fig7-trisurf-acercamiento.png
 dd14fc86f661a09632be08b2a5efa3ba5f1da1116696544f1156458c891d6f4d  ./thesis/assets/images/cap5-eval2-trisurf-post-2do-desplazamiento.png
+c29f89972e61ab51d6c569e4a9fa94e5cdd4e64b20cef84aa64c497797ea5060  ./thesis/assets/images/cap5-eval3-diferencias-tres-etapas.png
 147fb8699bde64351b761d78feaa82ebc477839018adeec0869ff78562860b8f  ./thesis/assets/images/cap5-eval3-fig1-setup-thorlabs.png
 581d1b80dfa9047ed004feb0c3a285f89b70d6b70e6bbe40d8055168055eaf2c  ./thesis/assets/images/cap5-eval3-fig2-seleccion-recon-tilt.png
 c0bdb6dbfbf5de2961b1a891950fa319befe7e0ed84dd776c826ce288be90f1a  ./thesis/assets/images/cap5-eval3-fig6-centroides-vs-mesh-tl.png
@@ -271,4 +273,4 @@ a86af138eec2898e9981d9c9be8a41bb3aac349478466abd92e8a4bbe1f45ce2  ./thesis/asset
 6b1e677003ae42a5e16eb0612daf4d28c3adba929f753947e99e047dbea80680  ./thesis/assets/images/platinaDesplazamiento.png
 a1aa2f7e41c637dc8af9e25e08a70ba557f3f083d1d006d4cbb83233ac63ed1e  ./thesis/assets/images/sistema optico.png
 eb88d9ef7a0f4bfbf2ea7c940fdbeaf8de1a4a13169844de6de2a1eafe546bc2  ./thesis/assets/images/sitemaOpticaAdaptativa.png
-d5aa0f78697a29b3fd5233d8b7d014d373095006b26146f5ca6abfb90abf944e  ./thesis/work/TM.tex
+b31c2b50740c8afc9f40ceec0ab5b89e1730aec53450a02c11d43f1910bfbae4  ./thesis/work/TM.tex

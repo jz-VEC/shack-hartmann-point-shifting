@@ -11,7 +11,7 @@ Este es el repositorio citado en el Apéndice A de la tesis. Contiene la fuente 
 | Ruta | Contenido |
 |---|---|
 | `thesis/work/TM.tex` | Fuente LaTeX de la tesis. La versión pública no contiene la firma del director. |
-| `thesis/assets/images/` | 52 imágenes utilizadas por `TM.tex`. |
+| `thesis/assets/images/` | 54 imágenes utilizadas por `TM.tex`. |
 | `scripts/functions/` | Funciones MATLAB reutilizables del pipeline. |
 | `scripts/config/paths_config.m` | Rutas relativas de los tres datasets públicos. |
 | `scripts/evaluations/` | Scripts de Z11 con ε=5, Z13 con ε=5 y Z13 con ε=10. |
