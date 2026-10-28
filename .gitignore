@@ -1,0 +1,39 @@
+# LaTeX
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+thesis/work/*.pdf
+
+# Elementos administrativos privados
+thesis/work/private/
+thesis/assets/images/visto-bueno-director.*
+
+# MATLAB regenerable
+*.asv
+*.autosave
+*.m~
+*.mat
+*.fig
+scripts/output/
+
+# Sistema y editores
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secretos
+.env
+.env.local
+*.key
+*.pem

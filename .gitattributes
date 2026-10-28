@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────────────────────
+# Line endings (evita conflictos macOS/Windows)
+# ─────────────────────────────────────────────────────────────
+* text=auto eol=lf
+
+# Texto explícito
+*.tex   text eol=lf
+*.bib   text eol=lf
+*.md    text eol=lf
+*.m     text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+
+# ─────────────────────────────────────────────────────────────
+# Binarios (no intentar hacer diff/merge)
+# ─────────────────────────────────────────────────────────────
+*.bmp   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.pdf   binary
+*.mat   binary
+*.fig   binary
+*.docx  binary
+*.xlsx  binary
+
+# ─────────────────────────────────────────────────────────────
+# Estadísticas de lenguaje en GitHub (marca rawData como dato)
+# ─────────────────────────────────────────────────────────────
+rawData/**   linguist-vendored
+data/**      linguist-generated
+
+# Preserve the acquisition and working-data bytes exactly as published.
+rawData/**   -text
+data/**      -text

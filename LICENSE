@@ -1,0 +1,60 @@
+Copyright (c) 2026 Carlos Enrique Valderrama Juárez
+
+All rights reserved.
+
+===========================================================================
+AVISO DE DERECHOS DE AUTOR — Tesis de Maestría
+===========================================================================
+
+Este repositorio contiene el trabajo de tesis de maestría del autor,
+desarrollado en el Instituto de Ciencias Aplicadas y Tecnología (ICAT) de
+la Universidad Nacional Autónoma de México (UNAM), bajo la dirección del
+Dr. Rufino Díaz-Uribe.
+
+Título provisional:
+  "Sensor Shack-Hartmann con corrimiento de puntos"
+
+Incluye, sin limitarse a:
+  · Documento de tesis (.tex, figuras, bibliografía)
+  · Código fuente MATLAB (procesamiento, reconstrucción, análisis)
+  · Datos experimentales propios (rawData/, data/)
+  · Documentación pública de reproducibilidad
+
+===========================================================================
+RESTRICCIONES
+===========================================================================
+
+Ninguna parte de este repositorio —incluyendo texto, código, datos,
+figuras, y documentación— puede ser:
+
+  · Reproducida total o parcialmente
+  · Redistribuida, publicada, o hecha pública
+  · Modificada o utilizada como base de obras derivadas
+  · Usada con fines comerciales, académicos o de investigación de terceros
+
+sin el consentimiento previo y por escrito del autor.
+
+Las citas académicas breves con fines de crítica, comentario o investigación
+están permitidas bajo las normas de uso legítimo (fair use / uso justo),
+siempre que se acredite apropiadamente al autor y a la UNAM.
+
+===========================================================================
+MATERIAL DE TERCEROS
+===========================================================================
+
+Los PDFs de referencias bibliográficas de terceros autores NO forman parte
+de este repositorio (excluidos vía .gitignore). Su uso se restringe al
+autor para consulta académica personal bajo sus respectivas licencias.
+
+===========================================================================
+CONTACTO
+===========================================================================
+
+Autor:     Carlos Enrique Valderrama Juárez
+Email:     carlosvalderrama.jz@gmail.com
+Director:  Dr. Rufino Díaz-Uribe
+Adscripción: ICAT, UNAM
+
+---
+
+Copyright (c) 2026 Carlos Enrique Valderrama Juárez. All rights reserved.

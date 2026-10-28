@@ -1,0 +1,274 @@
+43a9cee5b44301bc8b91e873a472f173564d1de877ee30cb88ce50b4dafb42ff  ./.gitattributes
+053e9d9efd4a99431273236515d7e280da01bd9f23959823bdccdb26f0dac2c8  ./.gitignore
+f8cfe6776bd0a6e3fa4b68afc1c5b4ee82dc762bed008d0461f2c8cc5e76aaed  ./DATA_MANIFEST.md
+17cfc5f0d6f262804f9730af34db035f20c3ae2c0fb6494d2b7351c663bf6070  ./LICENSE
+59978c6e81709aeffef5bcc94030b8f74197249f74441c037dcf2bc3ea9a9bc5  ./README.md
+65046bdbcc67e5c7f7bbfd1d18e8537bfd67be6ca2d03dd59c9b3d2a88f2ab14  ./REPRODUCIBILITY.md
+dbe9a37ae9b7dd3afa8b9145e0c5217a440bc0a69d1ef6dc640dfd26b902d3f9  ./THIRD_PARTY_NOTICES.md
+595fa50ac853f0024a8d737cbef8e671177558dbd1e259825d6980309cef48e5  ./data/README.md
+f0a895b46d262e0819496ea15a92d2b2e6e5e288076101618da108dca4f632b9  ./data/m1n2_z11_neg_max/Imagen Comparative despeus de segundo tratamiento.png
+b878847078ecfbd621f8b1e98c70d9d2e39118a70973d2630e1f39c92e9eb35f  ./data/m1n2_z11_neg_max/README.md
+3a19c4a71c92e80ac7f7433fca0d30ac5e0964dc1a09fe16073ad7d11cfe4135  ./data/m1n2_z11_neg_max/alineado al cero.png
+3e027f6095f5a87bb810abbaa7af4caff5957b97a4e440466d428447d8413211  ./data/m1n2_z11_neg_max/cent d+0 +0000.csv
+c8d8393a725d2f7ac5eed401562e436212fbfbfaa11a1b4a2cea449f6a779392  ./data/m1n2_z11_neg_max/cent d+1 +0671.csv
+f323d761905c5b592509cd797af533993bcdae7aea96d5cc6ff14cec3765f33e  ./data/m1n2_z11_neg_max/cent d+2 +1342.csv
+69e32bd9f61ce1bace48b6f9ae488f5de4dd2e7f39d19ad5afa0148b5309a059  ./data/m1n2_z11_neg_max/cent d-1 -0671.csv
+723f668c8e754aa9860978109243fca4116bfc496aa76c59a83c43568f4d1398  ./data/m1n2_z11_neg_max/cent d-2 -1342.csv
+a41a1b34a03e36b821934d543af4352090c28577bac6fd84e359e202c46b287c  ./data/m1n2_z11_neg_max/d+0 +0000.bmp
+c8887cd9382b2ba9106df7707bd674f41b57113c53b74d9dcc3757058e03dc07  ./data/m1n2_z11_neg_max/d+1 +0671.bmp
+ea929bbda17da5577df1d0118ae3c6eda0ed75fa2a9138681ebe975b1bdfee59  ./data/m1n2_z11_neg_max/d+2 +1342.bmp
+fb22f777b1d97af501529e0c4b07264b3ea8a3d8f9dd7e4750de651276339378  ./data/m1n2_z11_neg_max/d-1 - 0671.bmp
+fb22f777b1d97af501529e0c4b07264b3ea8a3d8f9dd7e4750de651276339378  ./data/m1n2_z11_neg_max/d-2 -1342.bmp
+f627ed30bbd73d063ddd9f9c184bbc53ce381ccf693474b446fabb5e2135ef79  ./data/m1n2_z11_neg_max/mesh d+0 +0000.csv
+ebb85a2bae11d66cbad70a6fd2885b7e76a93f785e0407c8b99318db12fb9453  ./data/m1n2_z11_neg_max/mesh d+1 +0671.csv
+2f878d098ed34505645757b786c259b52c2a58d8552de171dbeeddec9f043b1d  ./data/m1n2_z11_neg_max/mesh d+2 +1342.csv
+410f52f332e33c54898c8b3647447644b2f30250260b8cf5fcca47b56d96583a  ./data/m1n2_z11_neg_max/mesh d-1 - 0671.csv
+3ba50d6225aeef592dfdcce746caaa22ae3fb51bf7cfaa2fcbd9de037843e9c9  ./data/m1n2_z11_neg_max/mesh d-2 -1342.csv
+3355c056b32b7b3c8978bd615e519b5f4d6443bf67fc52918accc4004d75876d  ./data/m1n2_z11_neg_max/pow d+0 +0000.csv
+6921f5d3a75615236b97cda86b5b295c517c34758f9d9b62e4df982c4dcbc6de  ./data/m1n2_z11_neg_max/pow d+1 +0671.csv
+e980f57828059e30cb93cb3fe0dd0958c4189e8f3a4025438fa057815cf56f17  ./data/m1n2_z11_neg_max/pow d+2 +1342.csv
+0a8fde17a95b752199e7e43434ac4466e6447d2d460a384672d5fbcb95747f77  ./data/m1n2_z11_neg_max/pow d-1 - 0671.csv
+56602ca044f42fc7e4cb7722b40275c361e92515d1a839ac9563701d252c86da  ./data/m1n2_z11_neg_max/pow d-2 -1342.csv
+b698b6ba8e44752b48b8993eab75799cc4722c404ce6a97936c694870258b3e1  ./data/m1n2_z13_neg_max/README.md
+3b2594fd432e37534913d2394544589d383efe94f7fc2613f3f65634e1562629  ./data/m1n2_z13_neg_max/cent d+0 0.00.csv
+4b80ae218f066f0cd3ce7b4f665b3db202cdaaf9fce385eb2db293bb5e6b5fe7  ./data/m1n2_z13_neg_max/cent d+1 0671.csv
+260a05173c0d7f8bd73726c84dc156b341e8fbe7e6abfbefd171bcaa7a34c395  ./data/m1n2_z13_neg_max/cent d+2 1342.csv
+36824d9b931e0f424d0491b440404025c820485429cb8962eba5f02a7d94510b  ./data/m1n2_z13_neg_max/cent d-1 -0671.csv
+9595b699d46cc5553f8ab07788881e4513025d413dd8b9ea2b8c6ee1832081dc  ./data/m1n2_z13_neg_max/cent d-2 -1342.csv
+336955682cdc80782f8e379e3ec0daf86abfc1f3eb2b1baa7d0c122f0a614762  ./data/m1n2_z13_neg_max/d+1 0671.bmp
+7230f95a7c3c7f0da88ff69351b638dfb5bb3833c937c7b0fe73e63922a83689  ./data/m1n2_z13_neg_max/d+2 1342.bmp
+dd3e1399e8c666e0a80b5e016008f287b30a0b16ec0ef09c6125dc7ccd3e2367  ./data/m1n2_z13_neg_max/d-1 -0671.bmp
+d19a4b221ad98043f60b99f5a51990e8f8d2d67d1aacbc7e12b034c431fea958  ./data/m1n2_z13_neg_max/d-2 -1342.bmp
+797e00916be51bec83446fefeffeb9bdf91ac438dbff3f3162799c21d469a1d4  ./data/m1n2_z13_neg_max/d0 0000.bmp
+187351a77599f39f555f018c6f69f5bd09e48e52b68dfc1a6a80bd72fe6b6fe1  ./data/m1n2_z13_neg_max/d0 Mesh .csv
+3b2594fd432e37534913d2394544589d383efe94f7fc2613f3f65634e1562629  ./data/m1n2_z13_neg_max/d0 cent.csv
+d411c57f5f6c3a62366a920a9bccc85f356b606cab79c9b2e9fdfde9f9047132  ./data/m1n2_z13_neg_max/d0pow.csv
+9b4a25926ef2177831879b4a2a158f3ac016de37a4f0a1a3b315a0f275902584  ./data/m1n2_z13_neg_max/inicio setup 0.png
+def2efcee2b076578a40e157d067a27dc1254482de7e23c1716817d77d974e1e  ./data/m1n2_z13_neg_max/mesh d+1 0671.csv
+9816cfd9d16ae70a985ffdddceb16fcfb025fad10bd2176b4cd185eaad6880b8  ./data/m1n2_z13_neg_max/mesh d+2 0.1342
+6ae6a25b63b6b369039abeb9f369c9cb3db792b5a40f918428e19b6c05ba3324  ./data/m1n2_z13_neg_max/mesh d+2 1342.csv
+e26e94f51c1f109629347f8f7d96e8f28c58977c64b7a0ce83d59c3fef611aea  ./data/m1n2_z13_neg_max/mesh d-1 -0671.csv
+56f5fdecb90a752c544a93d72e2a3ee94bcf0d624f27f508d2bd4829bdb1899a  ./data/m1n2_z13_neg_max/mesh d-2 -1342.csv
+6fe0a3974512929815a91ce3a6931a2e56db60e9be07995d028e161a7735c1a0  ./data/m1n2_z13_neg_max/notas.txt
+3ba8a8c832af6ac4045892f0ef76440f42e0dbb6f2b3d53fae8f0d4fd795f1ce  ./data/m1n2_z13_neg_max/pow d+1 0671.csv
+5a46eff8d3c54272b20afc5d0cfbc5e680fc6690b48871dddfa0cc57956fcd04  ./data/m1n2_z13_neg_max/pow d+2 0.1342
+62c0fb4ad4802bd011a8664a84a67357ca71863ab5eacbf5bc164257fc162b33  ./data/m1n2_z13_neg_max/pow d+2 1342.csv
+c0d275d181ebad43901a36bf4376447f225e77b4f122c99664708c5f94232f12  ./data/m1n2_z13_neg_max/pow d-1 -0671.csv
+d271f38f93e34ac02cf6fcc5eee04a3d123f7b75a6e8ec5c045e4b6c0abf8e38  ./data/m1n2_z13_neg_max/pow d-2 -1342.csv
+f6e39486e0df38abe421176b25cbbce4682ff127a388499dabba77e418ab9c64  ./data/m1n2_z13_neg_max/zcent d+2 0 - copia.1342
+f6e39486e0df38abe421176b25cbbce4682ff127a388499dabba77e418ab9c64  ./data/m1n2_z13_neg_max/zcent d+2 0.1342
+31d5f889bdb756d0f51fc67bb96481d9682e63b2b5eddbb1784e0d5d8526b4a3  ./data/m1n3_z13_max/I2.png
+1b0bf607c065a646346881efc1b854a9c8c53397f3fb45108f7d20871e251e45  ./data/m1n3_z13_max/README.md
+f9c02fe5bf6ea98e416b25d913ad3c904cc09b4a394d91cc30c6c47592f36e74  ./data/m1n3_z13_max/cent d+0 +0000.csv
+1d992150a5d4ce7efc57f54e11e02c0c7475b6c637fc769222e1ac3779e076bc  ./data/m1n3_z13_max/cent d+1 +0474.csv
+1208f61c42d38ac241bb773c32b8eaecd322b8991fe12baf0b97c0659b1d7c18  ./data/m1n3_z13_max/cent d+2 +949.csv
+2437e6d1f73c05caf8efd6ebee2de489b68109d8e2418b6a001f8debec033ce0  ./data/m1n3_z13_max/cent d+3 +1423.csv
+a85c8bd5b8a77f99157bab1ea0aa7451a6697cf440b9dc47d914306d6cb2c594  ./data/m1n3_z13_max/cent d+4 +1897.csv
+3adf19e46a410f180eac83681daacfd1a67361a77d95ca6df6641aaef306b7a9  ./data/m1n3_z13_max/cent d+5 +2371.csv
+27ef0fdb124f7071c5863fd4b4766299a4033ab6a0090bf96a00e6a84205b6b0  ./data/m1n3_z13_max/cent d-1 -0474.csv
+eaccd45188dae7583742d5b4d408d32f90153c51072c02eb856d89c23bab488f  ./data/m1n3_z13_max/cent d-2 -0949.csv
+74a3d42377089b2918f20e273906a28f18e5d4b5c39cd73df345c04474e60891  ./data/m1n3_z13_max/cent d-3 -1423.csv
+1c85fc5b54a7d754a693320e4bf9509c7e38e2adfce6538d2740660e5447358c  ./data/m1n3_z13_max/cent d-4 -1897.csv
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./data/m1n3_z13_max/d+0 +0000.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./data/m1n3_z13_max/d+1 +0474.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./data/m1n3_z13_max/d+2 +949.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./data/m1n3_z13_max/d+3 +1423.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./data/m1n3_z13_max/d+4 +1897.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./data/m1n3_z13_max/d+5 +2371.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./data/m1n3_z13_max/d-1 -0474.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./data/m1n3_z13_max/d-2 -0949.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./data/m1n3_z13_max/d-3 -1423.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./data/m1n3_z13_max/d-4 -1897.bmp
+502cae4c210dc773458ce2ea8177dda64ad97c4ad5c4e00a6ff02eba9837b794  ./data/m1n3_z13_max/mesh d+0 +0000.csv
+4a8e1ac28716aa6ebfc42ee34b5302554194bbb5591671800f3b08d2fb6f21ea  ./data/m1n3_z13_max/mesh d+1 +0474.csv
+68229bed45ce95d93baab83929f5c8622df3915a44df041d506fcec479957272  ./data/m1n3_z13_max/mesh d+2 +949.csv
+2be4b165a362e217d6e7f63ab8c98440c8335938b93b813509822130412adae8  ./data/m1n3_z13_max/mesh d+3 +1423.csv
+0ad13363978c65d2116f1265719f5bcb8f079aabe66d7de75d918bff591039b6  ./data/m1n3_z13_max/mesh d+4 +1897.csv
+551eaad038626537a2eac769a0e8246db6df08e30011b8c8267117b0fb6cf779  ./data/m1n3_z13_max/mesh d+5 +2371.csv
+ff49fe696a51e005f966578efd30fa70b283fbef9c17ae9eb68242802c4a9b6e  ./data/m1n3_z13_max/mesh d-1 -0474.csv
+690cda802f8f1ab7e58ab1fae60a86618126a40dfc97945e71f7b3788b327295  ./data/m1n3_z13_max/mesh d-2 -0949.csv
+9f01452c401df5b503869c81c30dbb43ccc98f4fa5d8160c6f074fcc35ece83f  ./data/m1n3_z13_max/mesh d-3 -1423.csv
+bade2c6329bcd339c0303bfe1e686869b96feaaf1ce88542199418615ca1920d  ./data/m1n3_z13_max/mesh d-4 -1897.csv
+147fb8699bde64351b761d78feaa82ebc477839018adeec0869ff78562860b8f  ./data/m1n3_z13_max/posicon cero z13 negativo.png
+f955aefe906d3b49dbe6e2cbe728f967495b879192dec1bbcabc50e80df29749  ./data/m1n3_z13_max/pow d+0 +0000.csv
+35f75cd37d132e28945a85a7326540a6ca65b070718dee4c5f8e36ba41f04fcc  ./data/m1n3_z13_max/pow d+1 +0474.csv
+1eb399b24c7e8f7b6e425a57572723f33b67d8845f5d8eb3e37f75f82eb1682b  ./data/m1n3_z13_max/pow d+2 +949.csv
+4f3362a6aa2186eb7551349672b765e6c165c2734ec919a19adbb40e8452cbe3  ./data/m1n3_z13_max/pow d+3 +1423.csv
+35baf4d31589d2aaf7d77cabc4c07c2902bf5cebb924a64987f493803ad6ba4e  ./data/m1n3_z13_max/pow d+4 +1897.csv
+6351484d7b8b75e06bc3d17118258e423621d999432a902191628041e6365085  ./data/m1n3_z13_max/pow d+5 +2371.csv
+b764a21bf50cfb9a1a927738415b04170d991ed5bb43a91adb750e705c5a1ec3  ./data/m1n3_z13_max/pow d-1 -0474.csv
+81e938e7e4dab6b106b334064b895ef646b7b1f6c31aacfdabfc803042b19d49  ./data/m1n3_z13_max/pow d-2 -0949.csv
+dc475d9ba742431c7ddd27fd10d556d0c93fbbf7c2fd37f7c80cc61dae2b700d  ./data/m1n3_z13_max/pow d-3 -1423.csv
+abada5eb1c0705667aa3d3e399d9b5e94e21a2daaca7c8bf9888f649febbda5d  ./data/m1n3_z13_max/pow d-4 -1897.csv
+3b2594fd432e37534913d2394544589d383efe94f7fc2613f3f65634e1562629  ./rawData/T-1.2-5i/frente de onda -13 negativo max/cent d+0 0.00.csv
+4b80ae218f066f0cd3ce7b4f665b3db202cdaaf9fce385eb2db293bb5e6b5fe7  ./rawData/T-1.2-5i/frente de onda -13 negativo max/cent d+1 0671.csv
+260a05173c0d7f8bd73726c84dc156b341e8fbe7e6abfbefd171bcaa7a34c395  ./rawData/T-1.2-5i/frente de onda -13 negativo max/cent d+2 1342.csv
+36824d9b931e0f424d0491b440404025c820485429cb8962eba5f02a7d94510b  ./rawData/T-1.2-5i/frente de onda -13 negativo max/cent d-1 -0671.csv
+9595b699d46cc5553f8ab07788881e4513025d413dd8b9ea2b8c6ee1832081dc  ./rawData/T-1.2-5i/frente de onda -13 negativo max/cent d-2 -1342.csv
+336955682cdc80782f8e379e3ec0daf86abfc1f3eb2b1baa7d0c122f0a614762  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d+1 0671.bmp
+7230f95a7c3c7f0da88ff69351b638dfb5bb3833c937c7b0fe73e63922a83689  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d+2 1342.bmp
+dd3e1399e8c666e0a80b5e016008f287b30a0b16ec0ef09c6125dc7ccd3e2367  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d-1 -0671.bmp
+d19a4b221ad98043f60b99f5a51990e8f8d2d67d1aacbc7e12b034c431fea958  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d-2 -1342.bmp
+797e00916be51bec83446fefeffeb9bdf91ac438dbff3f3162799c21d469a1d4  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d0 0000.bmp
+187351a77599f39f555f018c6f69f5bd09e48e52b68dfc1a6a80bd72fe6b6fe1  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d0 Mesh .csv
+3b2594fd432e37534913d2394544589d383efe94f7fc2613f3f65634e1562629  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d0 cent.csv
+d411c57f5f6c3a62366a920a9bccc85f356b606cab79c9b2e9fdfde9f9047132  ./rawData/T-1.2-5i/frente de onda -13 negativo max/d0pow.csv
+9b4a25926ef2177831879b4a2a158f3ac016de37a4f0a1a3b315a0f275902584  ./rawData/T-1.2-5i/frente de onda -13 negativo max/inicio setup 0.png
+def2efcee2b076578a40e157d067a27dc1254482de7e23c1716817d77d974e1e  ./rawData/T-1.2-5i/frente de onda -13 negativo max/mesh d+1 0671.csv
+9816cfd9d16ae70a985ffdddceb16fcfb025fad10bd2176b4cd185eaad6880b8  ./rawData/T-1.2-5i/frente de onda -13 negativo max/mesh d+2 0.1342
+6ae6a25b63b6b369039abeb9f369c9cb3db792b5a40f918428e19b6c05ba3324  ./rawData/T-1.2-5i/frente de onda -13 negativo max/mesh d+2 1342.csv
+e26e94f51c1f109629347f8f7d96e8f28c58977c64b7a0ce83d59c3fef611aea  ./rawData/T-1.2-5i/frente de onda -13 negativo max/mesh d-1 -0671.csv
+56f5fdecb90a752c544a93d72e2a3ee94bcf0d624f27f508d2bd4829bdb1899a  ./rawData/T-1.2-5i/frente de onda -13 negativo max/mesh d-2 -1342.csv
+6fe0a3974512929815a91ce3a6931a2e56db60e9be07995d028e161a7735c1a0  ./rawData/T-1.2-5i/frente de onda -13 negativo max/notas.txt
+3ba8a8c832af6ac4045892f0ef76440f42e0dbb6f2b3d53fae8f0d4fd795f1ce  ./rawData/T-1.2-5i/frente de onda -13 negativo max/pow d+1 0671.csv
+5a46eff8d3c54272b20afc5d0cfbc5e680fc6690b48871dddfa0cc57956fcd04  ./rawData/T-1.2-5i/frente de onda -13 negativo max/pow d+2 0.1342
+62c0fb4ad4802bd011a8664a84a67357ca71863ab5eacbf5bc164257fc162b33  ./rawData/T-1.2-5i/frente de onda -13 negativo max/pow d+2 1342.csv
+c0d275d181ebad43901a36bf4376447f225e77b4f122c99664708c5f94232f12  ./rawData/T-1.2-5i/frente de onda -13 negativo max/pow d-1 -0671.csv
+d271f38f93e34ac02cf6fcc5eee04a3d123f7b75a6e8ec5c045e4b6c0abf8e38  ./rawData/T-1.2-5i/frente de onda -13 negativo max/pow d-2 -1342.csv
+f6e39486e0df38abe421176b25cbbce4682ff127a388499dabba77e418ab9c64  ./rawData/T-1.2-5i/frente de onda -13 negativo max/zcent d+2 0 - copia.1342
+f6e39486e0df38abe421176b25cbbce4682ff127a388499dabba77e418ab9c64  ./rawData/T-1.2-5i/frente de onda -13 negativo max/zcent d+2 0.1342
+3a19c4a71c92e80ac7f7433fca0d30ac5e0964dc1a09fe16073ad7d11cfe4135  ./rawData/T-1.2-5i/z11 neg max/alineado al cero.png
+3e027f6095f5a87bb810abbaa7af4caff5957b97a4e440466d428447d8413211  ./rawData/T-1.2-5i/z11 neg max/cent d+0 +0000.csv
+c8d8393a725d2f7ac5eed401562e436212fbfbfaa11a1b4a2cea449f6a779392  ./rawData/T-1.2-5i/z11 neg max/cent d+1 +0671.csv
+f323d761905c5b592509cd797af533993bcdae7aea96d5cc6ff14cec3765f33e  ./rawData/T-1.2-5i/z11 neg max/cent d+2 +1342.csv
+69e32bd9f61ce1bace48b6f9ae488f5de4dd2e7f39d19ad5afa0148b5309a059  ./rawData/T-1.2-5i/z11 neg max/cent d-1 - 0671.csv
+723f668c8e754aa9860978109243fca4116bfc496aa76c59a83c43568f4d1398  ./rawData/T-1.2-5i/z11 neg max/cent d-2 -1342.csv
+a41a1b34a03e36b821934d543af4352090c28577bac6fd84e359e202c46b287c  ./rawData/T-1.2-5i/z11 neg max/d+0 +0000.bmp
+c8887cd9382b2ba9106df7707bd674f41b57113c53b74d9dcc3757058e03dc07  ./rawData/T-1.2-5i/z11 neg max/d+1 +0671.bmp
+ea929bbda17da5577df1d0118ae3c6eda0ed75fa2a9138681ebe975b1bdfee59  ./rawData/T-1.2-5i/z11 neg max/d+2 +1342.bmp
+fb22f777b1d97af501529e0c4b07264b3ea8a3d8f9dd7e4750de651276339378  ./rawData/T-1.2-5i/z11 neg max/d-1 - 0671.bmp
+fb22f777b1d97af501529e0c4b07264b3ea8a3d8f9dd7e4750de651276339378  ./rawData/T-1.2-5i/z11 neg max/d-2 -1342.bmp
+f627ed30bbd73d063ddd9f9c184bbc53ce381ccf693474b446fabb5e2135ef79  ./rawData/T-1.2-5i/z11 neg max/mesh d+0 +0000.csv
+ebb85a2bae11d66cbad70a6fd2885b7e76a93f785e0407c8b99318db12fb9453  ./rawData/T-1.2-5i/z11 neg max/mesh d+1 +0671.csv
+2f878d098ed34505645757b786c259b52c2a58d8552de171dbeeddec9f043b1d  ./rawData/T-1.2-5i/z11 neg max/mesh d+2 +1342.csv
+410f52f332e33c54898c8b3647447644b2f30250260b8cf5fcca47b56d96583a  ./rawData/T-1.2-5i/z11 neg max/mesh d-1 - 0671.csv
+3ba50d6225aeef592dfdcce746caaa22ae3fb51bf7cfaa2fcbd9de037843e9c9  ./rawData/T-1.2-5i/z11 neg max/mesh d-2 -1342.csv
+3355c056b32b7b3c8978bd615e519b5f4d6443bf67fc52918accc4004d75876d  ./rawData/T-1.2-5i/z11 neg max/pow d+0 +0000.csv
+6921f5d3a75615236b97cda86b5b295c517c34758f9d9b62e4df982c4dcbc6de  ./rawData/T-1.2-5i/z11 neg max/pow d+1 +0671.csv
+e980f57828059e30cb93cb3fe0dd0958c4189e8f3a4025438fa057815cf56f17  ./rawData/T-1.2-5i/z11 neg max/pow d+2 +1342.csv
+0a8fde17a95b752199e7e43434ac4466e6447d2d460a384672d5fbcb95747f77  ./rawData/T-1.2-5i/z11 neg max/pow d-1 - 0671.csv
+56602ca044f42fc7e4cb7722b40275c361e92515d1a839ac9563701d252c86da  ./rawData/T-1.2-5i/z11 neg max/pow d-2 -1342.csv
+31d5f889bdb756d0f51fc67bb96481d9682e63b2b5eddbb1784e0d5d8526b4a3  ./rawData/T-1.3-10i/z13 max/I2.png
+f9c02fe5bf6ea98e416b25d913ad3c904cc09b4a394d91cc30c6c47592f36e74  ./rawData/T-1.3-10i/z13 max/cent d+0 +0000.csv
+1d992150a5d4ce7efc57f54e11e02c0c7475b6c637fc769222e1ac3779e076bc  ./rawData/T-1.3-10i/z13 max/cent d+1 +0474.csv
+1208f61c42d38ac241bb773c32b8eaecd322b8991fe12baf0b97c0659b1d7c18  ./rawData/T-1.3-10i/z13 max/cent d+2 +949.csv
+2437e6d1f73c05caf8efd6ebee2de489b68109d8e2418b6a001f8debec033ce0  ./rawData/T-1.3-10i/z13 max/cent d+3 +1423.csv
+a85c8bd5b8a77f99157bab1ea0aa7451a6697cf440b9dc47d914306d6cb2c594  ./rawData/T-1.3-10i/z13 max/cent d+4 +1897.csv
+3adf19e46a410f180eac83681daacfd1a67361a77d95ca6df6641aaef306b7a9  ./rawData/T-1.3-10i/z13 max/cent d+5 +2371.csv
+27ef0fdb124f7071c5863fd4b4766299a4033ab6a0090bf96a00e6a84205b6b0  ./rawData/T-1.3-10i/z13 max/cent d-1 -0474.csv
+eaccd45188dae7583742d5b4d408d32f90153c51072c02eb856d89c23bab488f  ./rawData/T-1.3-10i/z13 max/cent d-2 -0949.csv
+74a3d42377089b2918f20e273906a28f18e5d4b5c39cd73df345c04474e60891  ./rawData/T-1.3-10i/z13 max/cent d-3 -1423.csv
+1c85fc5b54a7d754a693320e4bf9509c7e38e2adfce6538d2740660e5447358c  ./rawData/T-1.3-10i/z13 max/cent d-4 -1897.csv
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./rawData/T-1.3-10i/z13 max/d+0 +0000.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./rawData/T-1.3-10i/z13 max/d+1 +0474.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./rawData/T-1.3-10i/z13 max/d+2 +949.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./rawData/T-1.3-10i/z13 max/d+3 +1423.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./rawData/T-1.3-10i/z13 max/d+4 +1897.bmp
+5810c5e3fc50582ebe0e33393b0f6467c0719de54d76fdc57b5e64c869e43f1a  ./rawData/T-1.3-10i/z13 max/d+5 +2371.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./rawData/T-1.3-10i/z13 max/d-1 -0474.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./rawData/T-1.3-10i/z13 max/d-2 -0949.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./rawData/T-1.3-10i/z13 max/d-3 -1423.bmp
+13ab84e2f517dc0494ea27885e2bfb34e056c8a700e97c3067984f91a2bd5445  ./rawData/T-1.3-10i/z13 max/d-4 -1897.bmp
+502cae4c210dc773458ce2ea8177dda64ad97c4ad5c4e00a6ff02eba9837b794  ./rawData/T-1.3-10i/z13 max/mesh d+0 +0000.csv
+4a8e1ac28716aa6ebfc42ee34b5302554194bbb5591671800f3b08d2fb6f21ea  ./rawData/T-1.3-10i/z13 max/mesh d+1 +0474.csv
+68229bed45ce95d93baab83929f5c8622df3915a44df041d506fcec479957272  ./rawData/T-1.3-10i/z13 max/mesh d+2 +949.csv
+2be4b165a362e217d6e7f63ab8c98440c8335938b93b813509822130412adae8  ./rawData/T-1.3-10i/z13 max/mesh d+3 +1423.csv
+0ad13363978c65d2116f1265719f5bcb8f079aabe66d7de75d918bff591039b6  ./rawData/T-1.3-10i/z13 max/mesh d+4 +1897.csv
+551eaad038626537a2eac769a0e8246db6df08e30011b8c8267117b0fb6cf779  ./rawData/T-1.3-10i/z13 max/mesh d+5 +2371.csv
+ff49fe696a51e005f966578efd30fa70b283fbef9c17ae9eb68242802c4a9b6e  ./rawData/T-1.3-10i/z13 max/mesh d-1 -0474.csv
+690cda802f8f1ab7e58ab1fae60a86618126a40dfc97945e71f7b3788b327295  ./rawData/T-1.3-10i/z13 max/mesh d-2 -0949.csv
+9f01452c401df5b503869c81c30dbb43ccc98f4fa5d8160c6f074fcc35ece83f  ./rawData/T-1.3-10i/z13 max/mesh d-3 -1423.csv
+bade2c6329bcd339c0303bfe1e686869b96feaaf1ce88542199418615ca1920d  ./rawData/T-1.3-10i/z13 max/mesh d-4 -1897.csv
+147fb8699bde64351b761d78feaa82ebc477839018adeec0869ff78562860b8f  ./rawData/T-1.3-10i/z13 max/posicon cero z13 negativo.png
+f955aefe906d3b49dbe6e2cbe728f967495b879192dec1bbcabc50e80df29749  ./rawData/T-1.3-10i/z13 max/pow d+0 +0000.csv
+35f75cd37d132e28945a85a7326540a6ca65b070718dee4c5f8e36ba41f04fcc  ./rawData/T-1.3-10i/z13 max/pow d+1 +0474.csv
+1eb399b24c7e8f7b6e425a57572723f33b67d8845f5d8eb3e37f75f82eb1682b  ./rawData/T-1.3-10i/z13 max/pow d+2 +949.csv
+4f3362a6aa2186eb7551349672b765e6c165c2734ec919a19adbb40e8452cbe3  ./rawData/T-1.3-10i/z13 max/pow d+3 +1423.csv
+35baf4d31589d2aaf7d77cabc4c07c2902bf5cebb924a64987f493803ad6ba4e  ./rawData/T-1.3-10i/z13 max/pow d+4 +1897.csv
+6351484d7b8b75e06bc3d17118258e423621d999432a902191628041e6365085  ./rawData/T-1.3-10i/z13 max/pow d+5 +2371.csv
+b764a21bf50cfb9a1a927738415b04170d991ed5bb43a91adb750e705c5a1ec3  ./rawData/T-1.3-10i/z13 max/pow d-1 -0474.csv
+81e938e7e4dab6b106b334064b895ef646b7b1f6c31aacfdabfc803042b19d49  ./rawData/T-1.3-10i/z13 max/pow d-2 -0949.csv
+dc475d9ba742431c7ddd27fd10d556d0c93fbbf7c2fd37f7c80cc61dae2b700d  ./rawData/T-1.3-10i/z13 max/pow d-3 -1423.csv
+abada5eb1c0705667aa3d3e399d9b5e94e21a2daaca7c8bf9888f649febbda5d  ./rawData/T-1.3-10i/z13 max/pow d-4 -1897.csv
+42d1173a51fc5d473cad7b1563bebd86f02aa19df79a73e9a6db84ff37cd2716  ./scripts/CONVENTIONS.md
+60b6deeb8a9629133f285bda4a23a12262d645245c02c4fa9f07c3ece334be04  ./scripts/config/paths_config.m
+74e2737e811e72c4cb6b7e339c2f3ea9053a513490be9d7162663f99cebdd6b1  ./scripts/evaluations/m1n2_z11_neg_max/README.md
+0baa754ad7db60e4b852d9356111ce61eb4801c01e91a6f75c2e0db5da279ba5  ./scripts/evaluations/m1n2_z11_neg_max/m1n2_z11_neg_max.m
+aa8766633bfe27d9b4068a3c9d57efa9bb1cf65dbea06e548b14e4a9e14f44fa  ./scripts/evaluations/m1n2_z11_neg_max/single_image_baseline.m
+4d402655be2a7127702187e5f126945820a7c74776275dc7fc6af182748a7a2a  ./scripts/evaluations/m1n2_z13_neg_max/README.md
+0fb47538c38ff88231cc52935423f27640bdb965cc89916a063129c735cd8f74  ./scripts/evaluations/m1n2_z13_neg_max/m1n2_z13_neg_max.m
+8ba9ffd840ba4638425cd6d20c28e0d3abd50aa1e9a8e60ba9e7e32807a291f6  ./scripts/evaluations/m1n3_z13_max/README.md
+9aa2ade65048d0331d88b1eb81f0b26aa94d2cf4ab6e440429e9309e13b57f1c  ./scripts/evaluations/m1n3_z13_max/m1n3_z13_max.m
+02e1c872233d0a40a6be752b87889b3479345c7e95bfc4c289c25064e765a58a  ./scripts/functions/ZernfN.m
+35b4298fa7b7133f6b4ae741d5d8bc8423fb0472890747ed42e53acc6f0b5192  ./scripts/functions/array2list.m
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./scripts/functions/cent2aberralist.m
+d38dcc5f78b64b69e45a1bb8d34c7d73fe3e9241dcd1e4e9464186b4ed4bae42  ./scripts/functions/clean_nan_elements.m
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./scripts/functions/combined_xy_colums_from_csv.m
+5683b59ea5c9540ad4620e5f8c5aec0b6c4e70d0d9dcc566b7dc105d286c232b  ./scripts/functions/csv_data_extraction.m
+2b4da712c3258857f41fe509208e4609f37747075657f182b9c6ce495d8ec94e  ./scripts/functions/dista.m
+1923019112aa0c46b2e09755238f6264f436d1d6b1b5e254f595eadd6230d63c  ./scripts/functions/get_all_data_listed_from.m
+bed2aa49b6e3945d2903cc9b6d1b5c826b51538ac9be6dedd8cc4c7c02114d83  ./scripts/functions/get_centroids_matrixes_from_table.m
+d3639f6a001682fc50cfe71cdf20ff8cb0d4d56480c5b87dd82674b4484d498a  ./scripts/functions/get_data_list_from.m
+0248e31891545b83eb319e397ecaf3874772023f4b8eb1cc4b3a3640d5e8ca42  ./scripts/functions/get_lens_centers_mm.m
+affce9030c346216f6c8a5567bc2149c4ed91d11eea17bab7055b8e1204754f5  ./scripts/functions/intpath.m
+22dfd5c155c6d22d52ecc2d583d9af2324d0f7a32fd22e2152fd6f0e0e09462a  ./scripts/functions/intpaths.m
+b695c20a399f1e6b6c7192743098416e3138c5f98f6f010d254b65397274bb17  ./scripts/functions/movmn.m
+7e670c9dab323c6f21a93da9c933651f0827321620ec64448ea3d5d5f3969aa9  ./scripts/functions/plotpath.m
+67bd19b02ff7656d9d5c8c9be2bac528a10f316a20b81df697866c88f1e5832c  ./scripts/functions/recenter.m
+f80dfb099bb102e7ba1ee654942f8cd2e2ef1a47a6ba89056131931523c6e96e  ./scripts/functions/recuperarFrenteDeOndaTL.m
+91fe67dc28b70b7bd97ec220587d31c5fc80b8138459d8ddf1011317cd76e0fa  ./scripts/functions/selectcirc.m
+4e9922c8c1e2d52c2e7b62606d90437926897b44db55fbd6d1e2cbd550602a87  ./scripts/functions/tabto2dcord.m
+59a50446199a5e6521ecf9b1d1ba5a533f92e520a9249d5785d720d8922e37f2  ./scripts/functions/zernfun.m
+06f7b65199f8083cfa326e364cf5096859a83b5f6771dd60272acbfe6e98b804  ./thesis/assets/images/APT180.png
+92a8a0ab614e3aaea734f650d169b60a5b0fa64aabfcc7e24e78602e20dfcb88  ./thesis/assets/images/Divisiones2.png
+66fa9970f51cdd779f01339c99630218b26561719abbac563d24009a5ed86651  ./thesis/assets/images/EspejoDeformable.jpg
+0fc7d4f0a4dc0ef701e0b871a226db250cf014d6e57880cebb47d5df0744aeff  ./thesis/assets/images/GeneracionDelHaz.png
+af76ae0df0ef79ff0d9cacfcfd6118d6fae92d02cd1e1687e701c00f89a2eb67  ./thesis/assets/images/Img_rotacion-v2.png
+022424086b7ad42f0b45b90126d5c44ef5af489387cfcbc4624ce39adb633906  ./thesis/assets/images/Motor.jpg
+8789c2ac94c7b51b374eab87bbf889f9b8a2f7e1be0433f81153cf958868bd09  ./thesis/assets/images/Rotacion.png
+308ba97e3f441256b2dc3695da261bfb68523932ff4aed398722fc096ebc84d2  ./thesis/assets/images/S-H reoresebtacion-v2.png
+74128b475bda66765728b7de37b906978b2f4e563fa14d1eab910d436bce094a  ./thesis/assets/images/SH-Sensor-v2.png
+7eb1901f0778bb17b07dd38ef2973b5acf4b36c49680c94415b3bf9ab00d6d22  ./thesis/assets/images/Selección.png
+18e9b8bed11b4d9efea0fabc621b97efd283829ba7fd453c2b6151228b018bd0  ./thesis/assets/images/Sistema ángular-v2.png
+74a9b99bbe92fb767f5a5e468b8339dd15c630386db61561fdfa36d8417a87c3  ./thesis/assets/images/cap2-aberracion-transversal.png
+fd2f9de9a63552af37cb71c880294db316c2ae8f68958c66048dc29caf8f7e43  ./thesis/assets/images/cap4-caminos-ejemplo.png
+088678b4789b5fe3dc8ba5af5c6cb3fa8a014a16be8dc3bb62cb1f1bd65e6c86  ./thesis/assets/images/cap4-centroides-nan-v2.png
+277eaa367964e35ed34ac092c156ad9f72d15e250a43b7dc780f800133136c2e  ./thesis/assets/images/cap4-shg-crudo-2.png
+6621a8ff98092ba771c727a70950da80ed7ed9e97943eda40d689a784192ec58  ./thesis/assets/images/cap5-centros-centroides-caminos.png
+3eea1a2ebea8c9449f6a379ab8855df61e6b29a26818bdb91a21800e3ed90c1e  ./thesis/assets/images/cap5-eval2-diferencias-tres-etapas.png
+9b4a25926ef2177831879b4a2a158f3ac016de37a4f0a1a3b315a0f275902584  ./thesis/assets/images/cap5-eval2-fig1-setup-thorlabs.png
+d27ad679b665126618d5b960ca154f1e960c15f3431b7b9eed2f2872b09fc6bd  ./thesis/assets/images/cap5-eval2-fig2-seleccion-recon-tilt.png
+f142cc91f3653b0793c7024b6f4f8c5640ccdfe4d39a4653481ee98b4c8e6d51  ./thesis/assets/images/cap5-eval2-fig3-colorbar.png
+6087dd50a564d66980b864c96dcad5d8b5872bbf7013283486aa84c862422f15  ./thesis/assets/images/cap5-eval2-fig4-centroides-vs-mesh-tl.png
+7f536b8486d846b845525968dd0b03b5c538b09dca86f0b4a6664718e417f115  ./thesis/assets/images/cap5-eval2-fig5-perspective-sin-ttp.png
+7090e01d029e9f0c489d5f55e9ed01f8514f24b2e97e0ef8b8031cebcb40f5a8  ./thesis/assets/images/cap5-eval2-fig6-trisurf-sin-ttp.png
+59335acb76d5df9a55407aedb11bbbca4323d66c101990de1e4f2119fc5f77a0  ./thesis/assets/images/cap5-eval2-fig7-trisurf-acercamiento.png
+dd14fc86f661a09632be08b2a5efa3ba5f1da1116696544f1156458c891d6f4d  ./thesis/assets/images/cap5-eval2-trisurf-post-2do-desplazamiento.png
+147fb8699bde64351b761d78feaa82ebc477839018adeec0869ff78562860b8f  ./thesis/assets/images/cap5-eval3-fig1-setup-thorlabs.png
+581d1b80dfa9047ed004feb0c3a285f89b70d6b70e6bbe40d8055168055eaf2c  ./thesis/assets/images/cap5-eval3-fig2-seleccion-recon-tilt.png
+c0bdb6dbfbf5de2961b1a891950fa319befe7e0ed84dd776c826ce288be90f1a  ./thesis/assets/images/cap5-eval3-fig6-centroides-vs-mesh-tl.png
+74b98fe70e2482f3fd846ac19892f4307a38a389ba53c6eca7c173ec16bb7c5a  ./thesis/assets/images/cap5-eval3-scatter-perspectiva-acercamiento.png
+2a7cbe0efaf673121e15f2b6cbd45fd3f600198b547f83a2611481392d8bcd0d  ./thesis/assets/images/cap5-eval3-trisurf-sin-ttp.png
+3a19c4a71c92e80ac7f7433fca0d30ac5e0964dc1a09fe16073ad7d11cfe4135  ./thesis/assets/images/cap5-fig5_0-setup-inicial-thorlabs.png
+72b71fee0bb7887404af0fc3341c3a6db5a8b5219fdb48d87941baef5e5e357e  ./thesis/assets/images/cap5-fig5_1_1-thorlabs-vs-densificada.png
+52f395f44e6b36cbea76af415a26a19cb46e2b1eedcfdc03e20ff2225d559876  ./thesis/assets/images/cap5-fig5_1_2-densificada-zoom.png
+cd84898bacaf4611730ad2a85f554c81bca54a14ed5327e71524a2affb915dd9  ./thesis/assets/images/cap5-fig5_2-region-seleccionada.png
+f8b218f45a8f100fbcecc88e8d4779054bd043ff94d3a7adf77e5f142fcba6b4  ./thesis/assets/images/cap5-fig5_4_1-reconstruccion-perspectiva.png
+7ffb705542fc0179b20ba657a20e9cba42758351e7d039516dc73758af546fa0  ./thesis/assets/images/cap5-fig5_4_2-reconstruccion-mapa-colores.png
+970bdeafda21c38338d7b85922dd8b165703118b4556e5e21c0139ab94579692  ./thesis/assets/images/cap5-fig5_5_1-reconstruccion-sin-ttp-mapa.png
+4dd1f46b2687a3451a679b4a2998ab32848cf08a1420eb5fc9dc0173f7be7377  ./thesis/assets/images/cap5-fig5_5_2-reconstruccion-sin-ttp-perspectiva.png
+3d6ffe7e43b9e6884af4502debce0945ee342d0eb0f3dc8aa9a9945824e177ba  ./thesis/assets/images/cap5-fig5_6_1-trisurf-perspectiva-lejos.png
+61391c7eb35fd0a4ef8e3c2bd425293fe25c612e87c3a20fe963caf0722d3438  ./thesis/assets/images/cap5-fig5_6_2-trisurf-closeup-1.png
+ce2e299d47137efdb30507dcce332b805f5236db5c97f74ff5ba232321f92c58  ./thesis/assets/images/cap5-fig5_6_3-trisurf-closeup-2.png
+308008317521843bb549139bddfd1b67067d17ddbeb3c5cf056610c18948354b  ./thesis/assets/images/fig.invertido.png
+8cdfb91410af7a18cbca4c4b01618d0cf4bda22ed41598e5b577652a73624391  ./thesis/assets/images/fotos/foto-divisor-sensor-anotada.jpg
+8d1196dc24ba6912c4f36fdcca13d457e9520cd56a7aee10938f3b83da2f9ad3  ./thesis/assets/images/fotos/foto-goniometro-recorte.jpg
+2e205c50877a50ba42747f2b06f435d299bf0c2c7f25e7ac31d3465481ace05b  ./thesis/assets/images/fotos/foto-km200pm-recorte.jpg
+f10910357189cfd5162042900ee4016f473fc9740a0e16845eac49fde36aed66  ./thesis/assets/images/fotos/foto-montaje-completo-anotada.jpg
+c31240529448dc7a4dd4ba738bd715ea26d46eb5cd1333e00ed167190e497a0a  ./thesis/assets/images/fotos/foto-torre-detalle-anotada.jpg
+a7631792435f475f7f0304f5c6f4cd10a58e5ce4ec405fcc3a9211c47582889c  ./thesis/assets/images/fotos/foto-torre-final-anotada.jpg
+a86af138eec2898e9981d9c9be8a41bb3aac349478466abd92e8a4bbe1f45ce2  ./thesis/assets/images/mesaVaraible.png
+6b1e677003ae42a5e16eb0612daf4d28c3adba929f753947e99e047dbea80680  ./thesis/assets/images/platinaDesplazamiento.png
+a1aa2f7e41c637dc8af9e25e08a70ba557f3f083d1d006d4cbb83233ac63ed1e  ./thesis/assets/images/sistema optico.png
+eb88d9ef7a0f4bfbf2ea7c940fdbeaf8de1a4a13169844de6de2a1eafe546bc2  ./thesis/assets/images/sitemaOpticaAdaptativa.png
+d5aa0f78697a29b3fd5233d8b7d014d373095006b26146f5ca6abfb90abf944e  ./thesis/work/TM.tex

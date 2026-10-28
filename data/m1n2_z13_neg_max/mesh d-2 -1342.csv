@@ -1,0 +1,136 @@
+Thorlabs Shack-Hartmann Wavefront Sensor
+
+Model                  ,       WFS20-5C
+Serial Number          ,       M00551780
+
+Date MM-DD-YYYY        ,       12-14-2021
+Time HH:MM:SS          ,       12:18:31
+
+
+*** CAMERA ***
+Camera Type            ,       Thorlabs WFS20
+Camera SN              ,       637
+Resolution X           ,       1440
+Resolution Y           ,       1080
+Exposure Time [ms]     ,       0.071
+Master Gain            ,       1.000
+Averages               ,       1
+Average Type           ,       Normal
+
+
+*** BEAM ***
+Beam Center X [mm]     ,       0.137
+Beam Center Y [mm]     ,       0.057
+Beam Diameter X [mm]   ,       3.864
+Beam Diameter Y [mm]   ,       4.215
+
+
+*** PUPIL ***
+Circular               ,       1
+Use Beam Centroid      ,       1
+Use Beam Dia           ,       0
+Wavefront Calc In Pupil,       1
+Pupil Diameter X [mm]  ,       3.792
+Pupil Diameter Y [mm]  ,       3.792
+Pupil Center X [mm]    ,       0.137
+Pupil Center Y [mm]    ,       0.057
+
+
+*** ZERNIKE FIT ***
+Zernike Orders Auto    ,       0
+Zernike Orders         ,       4
+Zernike Modes          ,       15
+Unit                   ,       µm
+Index  Order  Frequency  Coefficient
+   1,     0,     0,        0.379
+   2,     1,    -1,        0.313
+   3,     1,     1,        0.615
+   4,     2,    -2,       -0.064
+   5,     2,     0,       -0.425
+   6,     2,     2,        0.117
+   7,     3,    -3,       -0.129
+   8,     3,    -1,        0.197
+   9,     3,     1,       -0.222
+  10,     3,     3,       -0.017
+  11,     4,    -4,       -0.006
+  12,     4,    -2,        0.009
+  13,     4,     0,       -0.737
+  14,     4,     2,       -0.016
+  15,     4,     4,       -0.013
+
+Fit Error Mean [arcmin]  ,   1.418e-11
+Fit Error StdDev [arcmin],   1.532e-03
+
+
+*** RMS WAVEFRONT VARIATIONS ***
+Unit                   ,       µm
+Order  Variation
+   0,      0.379
+   1,      0.690
+   2,      0.445
+   3,      0.324
+   4,      0.738
+
+
+*** FOURIER NOTATION ***
+Fourier Order          ,       2
+Fourier M              ,       0.819
+Fourier J0             ,      -0.159
+Fourier J45            ,       0.088
+
+
+*** OPTOMETRIC NOTATION ***
+Optometric Sphere [dpt],       1.000
+Optometric Cyl. [dpt]  ,      -0.364
+Optometric Axis [deg]  ,      75.551
+
+Radius of Curvature[mm],    1221.572
+
+
+*** WAVEFRONT ***
+Reference              ,       Internal Reference
+Unit                   ,       µm
+Wavelength [nm]        ,        633.000
+Type                   ,       Measured
+Calculation Area       ,       pupil interior
+PV                     ,       6.325
+RMS                    ,       1.328
+RMS weighted           ,       1.265
+Spots X                ,       47
+Spots Y                ,       35
+y / x [mm],    -3.450,    -3.300,    -3.150,    -3.000,    -2.850,    -2.700,    -2.550,    -2.400,    -2.250,    -2.100,    -1.950,    -1.800,    -1.650,    -1.500,    -1.350,    -1.200,    -1.050,    -0.900,    -0.750,    -0.600,    -0.450,    -0.300,    -0.150,     0.000,     0.150,     0.300,     0.450,     0.600,     0.750,     0.900,     1.050,     1.200,     1.350,     1.500,     1.650,     1.800,     1.950,     2.100,     2.250,     2.400,     2.550,     2.700,     2.850,     3.000,     3.150,     3.300,     3.450,
+     2.550,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     2.400,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     2.250,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     2.100,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     1.950,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     1.800,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -1.899,    -1.472,    -1.164,    -0.957,    -0.806,    -0.752,    -0.824,    -1.011,    -1.322,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     1.650,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -1.669,    -1.041,    -0.523,    -0.129,     0.163,     0.363,     0.518,     0.581,     0.539,     0.393,     0.138,    -0.240,    -0.748,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     1.500,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -1.906,    -1.086,    -0.432,     0.109,     0.568,     0.924,     1.197,     1.395,     1.555,     1.639,     1.644,     1.552,     1.370,     1.059,     0.607,    -0.000,    -0.781,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     1.350,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -1.681,    -0.775,    -0.031,     0.543,     0.992,     1.368,     1.675,     1.920,     2.105,     2.269,     2.395,     2.460,     2.445,     2.359,     2.141,     1.758,     1.213,     0.508,    -0.345,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     1.200,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.675,     0.142,     0.796,     1.277,     1.622,     1.890,     2.117,     2.324,     2.489,     2.672,     2.851,     2.989,     3.072,     3.090,     2.968,     2.671,     2.206,     1.588,     0.821,    -0.132,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     1.050,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.737,     0.158,     0.865,     1.398,     1.767,     1.989,     2.124,     2.239,     2.375,     2.526,     2.743,     2.984,     3.223,     3.429,     3.559,     3.537,     3.355,     3.009,     2.478,     1.754,     0.849,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     0.900,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -1.060,    -0.011,     0.797,     1.406,     1.797,     2.009,     2.092,     2.083,     2.071,     2.118,     2.231,     2.473,     2.806,     3.173,     3.531,     3.793,     3.908,     3.860,     3.628,     3.169,     2.498,     1.650,     0.593,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     0.750,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.462,     0.531,     1.261,     1.758,     2.017,     2.069,     1.969,     1.804,     1.662,     1.615,     1.699,     1.960,     2.374,     2.858,     3.366,     3.795,     4.077,     4.172,     4.041,     3.676,     3.087,     2.284,     1.242,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     0.600,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -1.156,     0.008,     0.927,     1.573,     1.962,     2.090,     1.975,     1.691,     1.368,     1.125,     1.022,     1.091,     1.354,     1.802,     2.383,     3.018,     3.611,     4.068,     4.302,     4.281,     4.018,     3.507,     2.752,     1.750,     0.513,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     0.450,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.745,     0.374,     1.215,     1.772,     2.047,     2.039,     1.776,     1.353,     0.904,     0.611,     0.508,     0.577,     0.828,     1.243,     1.842,     2.581,     3.323,     3.933,     4.299,     4.393,     4.229,     3.782,     3.076,     2.114,     0.881,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     0.300,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.447,     0.633,     1.410,     1.895,     2.074,     1.941,     1.549,     1.023,     0.536,     0.255,     0.166,     0.229,     0.460,     0.845,     1.401,     2.153,     2.993,     3.725,     4.218,     4.419,     4.333,     3.942,     3.281,     2.325,     1.124,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     0.150,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.299,     0.770,     1.527,     1.963,     2.075,     1.854,     1.372,     0.789,     0.312,     0.046,    -0.024,     0.047,     0.251,     0.602,     1.121,     1.832,     2.697,     3.515,     4.099,     4.378,     4.333,     3.969,     3.342,     2.410,     1.193,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+     0.000,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.246,     0.816,     1.571,     1.990,     2.067,     1.811,     1.293,     0.691,     0.219,    -0.035,    -0.090,     0.000,     0.185,     0.493,     0.971,     1.640,     2.488,     3.337,     3.965,     4.279,     4.262,     3.926,     3.288,     2.357,     1.139,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -0.150,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.251,     0.818,     1.575,     1.997,     2.091,     1.842,     1.334,     0.745,     0.275,     0.013,    -0.060,     0.025,     0.203,     0.487,     0.947,     1.590,     2.410,     3.239,     3.862,     4.179,     4.159,     3.814,     3.156,     2.212,     0.995,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -0.300,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.374,     0.696,     1.495,     1.990,     2.131,     1.942,     1.506,     0.956,     0.477,     0.190,     0.082,     0.124,     0.303,     0.600,     1.066,     1.700,     2.486,     3.255,     3.825,     4.097,     4.041,     3.664,     2.977,     2.006,     0.771,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -0.450,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.606,     0.504,     1.339,     1.913,     2.145,     2.072,     1.756,     1.290,     0.817,     0.500,     0.359,     0.370,     0.537,     0.852,     1.326,     1.969,     2.707,     3.362,     3.813,     3.992,     3.866,     3.440,     2.714,     1.708,     0.431,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -0.600,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,     0.197,     1.109,     1.770,     2.118,     2.197,     2.028,     1.696,     1.305,     0.975,     0.804,     0.801,     0.955,     1.282,     1.756,     2.361,     2.995,     3.512,     3.811,     3.858,     3.627,     3.125,     2.344,     1.299,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -0.750,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.206,     0.801,     1.558,     2.025,     2.248,     2.252,     2.083,     1.834,     1.581,     1.422,     1.410,     1.569,     1.884,     2.313,     2.801,     3.274,     3.632,     3.780,     3.683,     3.330,     2.735,     1.882,     0.771,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -0.900,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,     0.368,     1.218,     1.794,     2.165,     2.350,     2.371,     2.276,     2.157,     2.070,     2.081,     2.247,     2.510,     2.843,     3.199,     3.489,     3.649,     3.644,     3.418,     2.956,     2.259,     1.314,     0.130,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -1.050,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,    -0.228,     0.718,     1.413,     1.928,     2.273,     2.457,     2.520,     2.546,     2.569,     2.637,     2.788,     2.973,     3.191,     3.410,     3.543,     3.520,     3.358,     3.013,     2.455,     1.666,     0.627,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -1.200,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,     0.041,     0.867,     1.513,     1.993,     2.314,     2.525,     2.692,     2.822,     2.931,     3.056,     3.181,     3.290,     3.371,     3.379,     3.227,     2.924,     2.452,     1.795,     0.920,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -1.350,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,     0.147,     0.904,     1.493,     1.931,     2.271,     2.556,     2.758,     2.896,     3.009,     3.087,     3.105,     3.071,     2.962,     2.717,     2.299,     1.717,     0.958,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -1.500,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,     0.066,     0.756,     1.305,     1.764,     2.130,     2.375,     2.540,     2.658,     2.707,     2.661,     2.536,     2.319,     1.994,     1.484,     0.807,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -1.650,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,     0.432,     0.981,     1.400,     1.692,     1.879,     2.008,     2.055,     1.968,     1.773,     1.457,     1.034,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -1.800,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,     0.725,     0.937,     1.063,     1.095,     0.979,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -1.950,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -2.100,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -2.250,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -2.400,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
+    -2.550,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,       NaN,
