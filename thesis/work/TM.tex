@@ -1472,7 +1472,7 @@ Para cada corrimiento $i \in \{1,\dots,\varepsilon\}$, el servomotor registra un
 \Delta x_i = \sigma_i \cos\theta, \qquad \Delta y_i = \sigma_i \sen\theta,
 \label{eq:desplazamiento-cartesiano}
 \end{equation}
-donde $\theta$ es el ángulo realmente alcanzado por la combinación de la platina AP180 y el goniómetro fino, no el valor teórico $\theta_r$ de la Ec.~\ref{Eq: angulo}. La distinción es relevante porque $\theta_r$ es un ángulo continuo (por ejemplo, $\arctan(1/2) \approx 26.565^\circ$), y el montaje sólo permite ajustarlo dentro de su resolución mecánica: la AP180 fija los múltiplos de $15^\circ$ con una precisión de $\pm 0.3^\circ$ y el goniómetro fino aporta la corrección residual con una resolución de $5'$ ($\approx 0.08^\circ$). Las componentes $(\Delta x_i, \Delta y_i)$ se calculan con $\theta$ porque ese es el ángulo a lo largo del cual el sensor se desplaza efectivamente.
+donde $\theta$ es el ángulo realmente alcanzado por la combinación de la platina AP180 y el goniómetro fino, no el valor teórico $\theta_r$ de la Ec.~\ref{Eq: angulo}. La distinción es relevante porque $\theta_r$ es un ángulo continuo (por ejemplo, $\arctan(1/2) \approx 26.565^\circ$), y el montaje sólo permite ajustarlo dentro de su resolución mecánica: la AP180 fija los múltiplos de $15^\circ$ con una precisión de $\pm 0.3^\circ$ y el goniómetro fino aporta la corrección residual con una resolución de $5'$ ($\approx 0.08^\circ$). Las componentes $(\Delta x_i, \Delta y_i)$ se calculan con $\theta$ porque ese es el ángulo a lo largo del cual el sensor se desplaza efectivamente. El efecto de estas resoluciones mecánicas, junto con la repetibilidad de la platina, sobre la reconstrucción se estima en el Apéndice~\ref{ap:propagacion}.
 
 Una vez calculadas las componentes, se suman tanto a los centroides como a los centros de microlente de la lista del corrimiento $i$:
 \begin{equation}
@@ -1689,7 +1689,7 @@ completo del residuo. En este trabajo se usa sobre todo en el segundo sentido: e
 $\Delta W'$ (o de $\Delta W''$, cuando interviene el tratamiento de la
 Sección~\ref{sec:segundo-tratamiento}) se calcula sobre los mismos pares emparejados que el
 RMS y se reporta junto a él, el RMS como magnitud típica del residuo y el PV como su
-extensión total. Comparado con el PV del frente de onda del fabricante sobre esos mismos
+extensión total. Comparado con el PV del frente de onda de Thorlabs sobre esos mismos
 puntos, da una idea de qué tan grande es el residuo frente a la amplitud de la aberración
 medida. Como
 el PV de un frente de onda depende del dominio sobre el que se evalúa, en el
@@ -2022,10 +2022,10 @@ desaparece, y las dos reconstrucciones quedan ahora sobre superficies cuya escal
 es la propia del modo tetrafoil $Z_{11}$ impuesto por el espejo deformable. El PV de la
 reconstrucción por corrimiento de puntos, ya sin tip, tilt ni pistón, es de $8.16~\mu$m
 sobre el dominio completo de la lista densificada, que llega al radio de selección
-$R = 1.95$~mm. Ese dominio incluye el anillo entre la pupila del fabricante
+$R = 1.95$~mm. Ese dominio incluye el anillo entre la pupila de Thorlabs
 ($r \approx 1.9$~mm) y $R$, donde no hay puntos de Thorlabs con los cuales comparar. Si se
 toman únicamente las alturas de nuestra reconstrucción en los puntos emparejados con los
-centros de microlente del fabricante, lo que en adelante llamamos dominio del fabricante,
+centros de microlente de Thorlabs, lo que en adelante llamamos dominio de Thorlabs,
 el PV es de $7.89~\mu$m, frente a $7.35~\mu$m de la reconstrucción de Thorlabs sobre esos
 mismos puntos.
 
@@ -2037,7 +2037,7 @@ mismos puntos.
   Reconstrucción por el método de corrimiento de puntos. Eliminada la inclinación residual
   visible en la Fig.~\ref{fig:cap5-fig5-4-1}, ambos frentes de onda muestran la estructura
   asociada al modo tetrafoil $Z_{11}$ con magnitudes y formas comparables: sobre el
-  dominio del fabricante, el PV es de $7.89~\mu$m para el corrimiento de puntos frente a
+  dominio de Thorlabs, el PV es de $7.89~\mu$m para el corrimiento de puntos frente a
   $7.35~\mu$m para Thorlabs.}
   \label{fig:cap5-fig5-5-2}
 \end{figure}
@@ -2063,7 +2063,7 @@ muestreo distintos.
 
 La Fig.~\ref{fig:cap5-eval1-diferencias} muestra esa diferencia punto a punto
 $\Delta = W - W_{\text{TL}}$ sobre la pupila, antes y después de la remoción de tip, tilt
-y pistón, evaluada sobre los $501$ puntos del dominio del fabricante y con una escala de
+y pistón, evaluada sobre los $501$ puntos del dominio de Thorlabs y con una escala de
 color simétrica alrededor de cero en cada panel. En la diferencia directa domina la
 inclinación relativa entre las dos reconstrucciones; una vez removida, el residuo, con un
 RMS de $0.145~\mu$m y un valor pico-valle de $0.79~\mu$m, se reparte sobre toda la
@@ -2073,7 +2073,7 @@ pupila.
   \centering
   \includegraphics[width=\linewidth]{cap5-eval1-diferencias-dos-etapas.png}
   \caption{Diferencia $\Delta = W - W_{\text{TL}}$ punto a punto sobre la pupila en la
-  primera evaluación, sobre los $501$ puntos del dominio del fabricante; cada panel con su
+  primera evaluación, sobre los $501$ puntos del dominio de Thorlabs; cada panel con su
   escala de color simétrica alrededor de cero. \textbf{a)} Diferencia directa, dominada
   por la inclinación relativa entre ambas reconstrucciones (RMS = $1.16~\mu$m).
   \textbf{b)} Tras el ajuste TTP independiente a cada frente de onda: el residuo queda
@@ -2167,7 +2167,7 @@ que ninguno de los dos fija de forma absoluta (Sección~\ref{sec:comparacion}).
 \caption{Resumen cuantitativo de la primera evaluación: dirección $(m,n)=(1,2)$,
 aberración $Z_{11}$ (tetrafoil), amplitud relativa del software $-0.99$. El bloque
 ``Otras medidas'' da el PV de los frentes de onda reconstruidos, sin tip, tilt ni pistón:
-sobre el dominio del fabricante las dos reconstrucciones son comparables; el valor sobre
+sobre el dominio de Thorlabs las dos reconstrucciones son comparables; el valor sobre
 el dominio completo incluye el anillo exterior sin referencia y no entra en la
 comparación.}
 \label{tab:cap5-resumen-eval1}
@@ -2190,8 +2190,8 @@ RMS diferencia tras TTP independiente    & $0.145~\mu$m \\
 PV diferencia tras TTP independiente     & $0.79~\mu$m \\
 \hline
 \multicolumn{2}{l}{\textit{Otras medidas: PV de los frentes de onda reconstruidos}} \\
-PV de la reconstrucción de Thorlabs (dominio del fabricante) & $7.35~\mu$m \\
-PV del corrimiento de puntos (dominio del fabricante)        & $7.89~\mu$m \\
+PV de la reconstrucción de Thorlabs (dominio de Thorlabs) & $7.35~\mu$m \\
+PV del corrimiento de puntos (dominio de Thorlabs)        & $7.89~\mu$m \\
 PV del corrimiento de puntos (dominio completo, $R$)         & $8.16~\mu$m \\
 \hline
 \end{tabularx}
@@ -2422,7 +2422,7 @@ vistas, sobre la misma región evaluada por Thorlabs.
   (a, b, c). La forma del modo esférico $Z_{13}$ aparece preservada en ambas
   reconstrucciones, ahora alineadas verticalmente; el método de corrimiento de puntos
   cubre la misma región evaluada por Thorlabs con un número considerablemente mayor de
-  puntos. Sobre el dominio del fabricante, el PV es de $5.44~\mu$m para el corrimiento de
+  puntos. Sobre el dominio de Thorlabs, el PV es de $5.44~\mu$m para el corrimiento de
   puntos frente a $5.32~\mu$m para Thorlabs.}
   \label{fig:cap5-eval2-post-2do-desplazamiento}
 \end{figure}
@@ -2435,7 +2435,7 @@ reconstrucción contiene un número considerablemente mayor de puntos (lista den
 frente al mallado canónico del fabricante), de modo que entrega una versión espacialmente
 más resuelta del mismo frente de onda sobre el mismo dominio comparable. El PV de nuestra
 reconstrucción es de $8.04~\mu$m sobre el dominio completo ($R = 2.10$~mm, con su anillo
-exterior sin puntos de Thorlabs) y de $5.44~\mu$m sobre el dominio del fabricante, frente
+exterior sin puntos de Thorlabs) y de $5.44~\mu$m sobre el dominio de Thorlabs, frente
 a $5.32~\mu$m de la reconstrucción de Thorlabs. La concordancia visual y el descenso del
 RMS de $0.67$ a $0.14~\mu$m sostienen, en conjunto, que el segundo tratamiento era
 necesario para que la métrica reportada describa el error real entre las dos
@@ -2455,7 +2455,7 @@ bloque ``Otras medidas'', el PV de los frentes de onda reconstruidos.
 \caption{Resumen cuantitativo de la segunda evaluación: dirección $(m,n)=(1,2)$,
 aberración $Z_{13}$ (esférica primaria), amplitud relativa del software $-0.97$. El
 bloque ``Otras medidas'' da el PV de los frentes de onda reconstruidos, sin tip, tilt ni
-pistón y tras el segundo tratamiento: sobre el dominio del fabricante las dos
+pistón y tras el segundo tratamiento: sobre el dominio de Thorlabs las dos
 reconstrucciones son comparables; el valor sobre el dominio completo incluye el anillo
 exterior sin referencia y no entra en la comparación.}
 \label{tab:cap5-resumen-eval2}
@@ -2479,8 +2479,8 @@ RMS diferencia tras segundo tratamiento     & $0.14~\mu$m \\
 PV diferencia tras segundo tratamiento      & $0.78~\mu$m \\
 \hline
 \multicolumn{2}{l}{\textit{Otras medidas: PV de los frentes de onda reconstruidos}} \\
-PV de la reconstrucción de Thorlabs (dominio del fabricante) & $5.32~\mu$m \\
-PV del corrimiento de puntos (dominio del fabricante)        & $5.44~\mu$m \\
+PV de la reconstrucción de Thorlabs (dominio de Thorlabs) & $5.32~\mu$m \\
+PV del corrimiento de puntos (dominio de Thorlabs)        & $5.44~\mu$m \\
 PV del corrimiento de puntos (dominio completo, $R$)         & $8.04~\mu$m \\
 \hline
 \end{tabularx}
@@ -2593,7 +2593,7 @@ resultado, donde ambos frentes de onda presentan la misma forma global asociada 
 esférico $Z_{13}$ y la diferencia en densidad de la triangulación refleja directamente el
 factor $\varepsilon=10$. Sobre el dominio completo ($R = 2.10$~mm, con su anillo exterior
 sin puntos de Thorlabs) el PV de nuestra reconstrucción es de $8.63~\mu$m; sobre el
-dominio del fabricante es de $5.72~\mu$m, frente a $5.44~\mu$m de la reconstrucción de
+dominio de Thorlabs es de $5.72~\mu$m, frente a $5.44~\mu$m de la reconstrucción de
 Thorlabs.
 
 \begin{figure}[htbp]
@@ -2636,7 +2636,7 @@ Thorlabs.
   paneles no coinciden porque los dominios difieren: el fabricante entrega su
   reconstrucción sólo en la región central, mientras que la lista densificada se extiende
   hasta el radio de selección $R$, donde la aberración esférica alcanza valores mayores
-  (PV de $8.63~\mu$m sobre el dominio completo). Sobre el dominio del fabricante, el PV es
+  (PV de $8.63~\mu$m sobre el dominio completo). Sobre el dominio de Thorlabs, el PV es
   de $5.72~\mu$m para el corrimiento de puntos frente a $5.44~\mu$m para Thorlabs.}
   \label{fig:cap5-eval3-fig5}
 \end{figure}
@@ -2653,7 +2653,7 @@ residuo se reduce a un RMS de $0.13~\mu$m, con un valor pico-valle de $0.73~\mu$
   \centering
   \includegraphics[width=\linewidth]{cap5-eval3-diferencias-tres-etapas.png}
   \caption{Diferencia $\Delta = W - W_{\text{TL}}$ punto a punto sobre la pupila en la
-  tercera evaluación, sobre los $501$ puntos del dominio del fabricante; cada panel con su
+  tercera evaluación, sobre los $501$ puntos del dominio de Thorlabs; cada panel con su
   escala de color simétrica alrededor de cero. \textbf{a)} Diferencia directa (RMS =
   $1.12~\mu$m). \textbf{b)} Tras el ajuste TTP independiente: persiste el pistón relativo
   entre dominios (RMS = $0.71~\mu$m). \textbf{c)} Tras el segundo tratamiento (RMS =
@@ -2673,7 +2673,7 @@ frentes de onda reconstruidos.
 \caption{Resumen cuantitativo de la tercera evaluación: dirección $(m,n)=(1,3)$,
 aberración $Z_{13}$ (esférica primaria), amplitud relativa del software $-0.92$. El
 bloque ``Otras medidas'' da el PV de los frentes de onda reconstruidos, sin tip, tilt ni
-pistón y tras el segundo tratamiento: sobre el dominio del fabricante las dos
+pistón y tras el segundo tratamiento: sobre el dominio de Thorlabs las dos
 reconstrucciones son comparables; el valor sobre el dominio completo incluye el anillo
 exterior sin referencia y no entra en la comparación.}
 \label{tab:cap5-resumen-eval3}
@@ -2697,8 +2697,8 @@ RMS diferencia tras segundo tratamiento     & $0.13~\mu$m \\
 PV diferencia tras segundo tratamiento      & $0.73~\mu$m \\
 \hline
 \multicolumn{2}{l}{\textit{Otras medidas: PV de los frentes de onda reconstruidos}} \\
-PV de la reconstrucción de Thorlabs (dominio del fabricante) & $5.44~\mu$m \\
-PV del corrimiento de puntos (dominio del fabricante)        & $5.72~\mu$m \\
+PV de la reconstrucción de Thorlabs (dominio de Thorlabs) & $5.44~\mu$m \\
+PV del corrimiento de puntos (dominio de Thorlabs)        & $5.72~\mu$m \\
 PV del corrimiento de puntos (dominio completo, $R$)         & $8.63~\mu$m \\
 \hline
 \end{tabularx}
@@ -2748,12 +2748,13 @@ PV diferencia final         & $0.79~\mu$m       & $0.78~\mu$m       & $0.73~\mu$
 \begin{table}[htbp]
 \centering
 \caption{Otras medidas de las tres evaluaciones: PV de los frentes de onda reconstruidos,
-sin tip, tilt ni pistón (y tras el segundo tratamiento en las evaluaciones 2 y 3). Sobre
-el dominio del fabricante, es decir, en las alturas de nuestra reconstrucción tomadas en
+sin tip, tilt ni pistón (cada frente con su propio plano, Sección~\ref{sec:tip-tilt}; y
+tras el segundo tratamiento en las evaluaciones 2 y 3). Sobre
+el dominio de Thorlabs, es decir, en las alturas de nuestra reconstrucción tomadas en
 los puntos emparejados con los centros de microlente de Thorlabs, las dos reconstrucciones
 dan amplitudes comparables, con la del corrimiento de puntos ligeramente mayor en las
 tres evaluaciones. El valor sobre el dominio completo de la lista densificada, que llega
-al radio de selección $R$ y rebasa la pupila del fabricante ($\approx 1.9$~mm de radio),
+al radio de selección $R$ y rebasa la pupila de Thorlabs ($\approx 1.9$~mm de radio),
 incluye el anillo exterior donde no hay puntos de Thorlabs; por eso es mayor, tanto más
 cuanto más ancho es ese anillo ($0.05$~mm en la primera evaluación, $\approx 0.2$~mm en
 las otras dos), y no entra en la comparación.}
@@ -2764,8 +2765,8 @@ las otras dos), y no entra en la comparación.}
 \textbf{Cantidad} & \textbf{Eval. 1} & \textbf{Eval. 2} & \textbf{Eval. 3} \\
 \hline
 Radio de selección $R$ (dominio completo)                    & $1.95$~mm   & $2.10$~mm   & $2.10$~mm   \\
-PV de la reconstrucción de Thorlabs (dominio del fabricante) & $7.35~\mu$m & $5.32~\mu$m & $5.44~\mu$m \\
-PV del corrimiento de puntos (dominio del fabricante)        & $7.89~\mu$m & $5.44~\mu$m & $5.72~\mu$m \\
+PV de la reconstrucción de Thorlabs (dominio de Thorlabs) & $7.35~\mu$m & $5.32~\mu$m & $5.44~\mu$m \\
+PV del corrimiento de puntos (dominio de Thorlabs)        & $7.89~\mu$m & $5.44~\mu$m & $5.72~\mu$m \\
 PV del corrimiento de puntos (dominio completo, $R$)         & $8.16~\mu$m & $8.04~\mu$m & $8.63~\mu$m \\
 \hline
 \end{tabularx}
@@ -2783,7 +2784,7 @@ sustanciales en la geometría experimental.
 
 El PV de la diferencia final es de $0.79$, $0.78$ y $0.73~\mu$m en las evaluaciones 1, 2
 y 3, frente a $7.35$, $5.32$ y $5.44~\mu$m del PV de la reconstrucción de Thorlabs, ambos
-sobre el dominio del fabricante. La Tabla~\ref{tab:cap5-otras-medidas} reúne los PV de
+sobre el dominio de Thorlabs. La Tabla~\ref{tab:cap5-otras-medidas} reúne los PV de
 los frentes de onda reconstruidos: sobre esos mismos puntos, el de nuestra reconstrucción
 es de $7.89$, $5.44$ y $5.72~\mu$m; los del dominio completo incluyen el anillo exterior
 sin referencia y no entran en la comparación.
@@ -2902,9 +2903,14 @@ natural.
 
 Por último, los resultados aquí reportados están sujetos a las precisiones del control
 mecánico del montaje (resolución angular del goniómetro y de la platina AP180,
-repetibilidad bidireccional del servomotor); la propagación cuantitativa de estas fuentes
-de error a la métrica de fidelidad no se ha realizado en este trabajo y se retoma como
-línea de trabajo futuro en la Sección~\ref{sec:trabajo-futuro}.
+repetibilidad bidireccional del servomotor). El Apéndice~\ref{ap:propagacion} sigue cómo
+entran estas dos fuentes en el método: no alteran las pendientes medidas, porque la
+aberración transversal se obtiene lente a lente, sino el paso de integración, que queda
+con una incertidumbre de $\pm 3.2~\mu$m; propagada por la reconstrucción, introduce un
+error de referencia de unos $20$~nm por paso, que no se acumula linealmente y cuyo efecto
+estimado sobre el frente de onda queda por debajo de $20$~nm, muy por debajo del residuo
+reportado. Es un análisis preliminar; su tratamiento estadístico completo se retoma
+como línea de trabajo futuro en la Sección~\ref{sec:trabajo-futuro}.
 
 
 \chapter{Conclusiones}\label{cap:conclusiones}
@@ -3011,9 +3017,11 @@ de altura que la acompaña y la inclinación del sensor se fijan antes del barri
 (Sección~\ref{sec:ajuste-angulo}); durante la medición sólo se mueve la platina de
 desplazamiento. Ese ajuste y el paso de cada corrimiento son fuentes de error que una sola
 imagen no tiene, y el análisis añade dos etapas: la composición de las $\varepsilon$
-listas y la selección de la región útil (Sección~\ref{sec:seleccion-region}). No se
-propagaron ni se separaron de las demás contribuciones al residuo; la única cifra que las
-contiene es la diferencia total frente al fabricante tras el tratamiento completo
+listas y la selección de la región útil (Sección~\ref{sec:seleccion-region}). Un análisis
+preliminar de su propagación (Apéndice~\ref{ap:propagacion}) estima que entran sólo en
+el paso de integración y que su efecto es de decenas de nanómetros a lo sumo; no se separaron
+experimentalmente de las demás contribuciones al residuo, y la única cifra que las
+contiene es la diferencia total frente a Thorlabs tras el tratamiento completo
 (Tabla~\ref{tab:cap5-comparativa-evals}). Ni la precisión absoluta del método ni su
 repetibilidad se midieron: la única cifra de precisión disponible es la que el catálogo
 declara para el sensor con su software, $\lambda/30$ RMS (Tabla~\ref{tab:ap-wfs}), no
@@ -3047,17 +3055,55 @@ estable y se dispone del montaje mecánico.
 Las líneas de continuación natural derivadas del trabajo aquí presentado se concentran en
 cuatro direcciones.
 
-\paragraph{Propagación cuantitativa del error instrumental.} Los resultados aquí
-reportados están sujetos a las precisiones del control mecánico del montaje: el ajuste del
-ángulo del sensor depende de la resolución del goniómetro y de la platina AP180
-(Sección~\ref{sec:control-desplazamiento-altura}), y el paso de cada corrimiento depende
-de la repetibilidad bidireccional del servomotor. La propagación cuantitativa del error
-introducido por estas dos fuentes a la métrica de fidelidad reportada no se ha realizado
-en este trabajo y es necesaria para acotar el piso de incertidumbre instrumental del
-residuo de $\sim 0.13$--$0.15~\mu$m observado en las evaluaciones aberradas. Tampoco se
-estudió la repetibilidad de una evaluación completa repetida desde la alineación inicial;
-es de esperar que una nueva alineación produzca el mismo frente de onda reconstruido salvo
-una traslación espacial, pero esta conjetura no fue puesta a prueba.
+\paragraph{Medición de una referencia conocida.} La primera continuación, y la que más
+habría fortalecido este trabajo, es contar con un frente de onda de referencia conocido
+contra el cual comparar, y no sólo con la reconstrucción de Thorlabs. Las evaluaciones de este trabajo emplean
+el espejo deformable como generador de frentes de onda repetibles pero no conocidos en
+sentido absoluto (Sección~\ref{sec:sistema-optico}), y, aun con la compensación de
+histéresis por software del controlador (Capítulo 3), la respuesta del espejo está sujeta
+a efectos de histéresis residual y relajación propios de los actuadores piezoeléctricos,
+de modo que la forma real del espejo no se conoce con exactitud. Medir una superficie
+calibrada de forma conocida (un elemento óptico certificado en lugar del espejo
+deformable) permitiría una validación absoluta del método, independiente tanto del
+software de referencia como de la incertidumbre en la forma que el espejo realmente
+adopta, y hablar de una mejora real y no sólo relativa.
+
+\paragraph{Validación contra una referencia distinta a la de Thorlabs.} Los datos de
+este trabajo no permiten establecer cuál de las dos reconstrucciones (la del método de
+corrimiento de puntos o la de Thorlabs) es más confiable en términos absolutos: la
+métrica empleada es relativa y ambas reconstrucciones comparten la misma cadena de
+medición (mismo sensor, mismo haz, mismos centroides), por lo que sus errores comunes se
+cancelan parcialmente al compararlas. La métrica de fidelidad reportada en este trabajo se
+construye contra la reconstrucción que entrega el software de Thorlabs sobre las mismas
+mediciones; esta elección hace que la validación quede acotada por la propia incertidumbre
+del algoritmo de Thorlabs. Una validación cruzada contra una referencia independiente
+(por ejemplo, una simulación numérica del mismo frente de onda con los parámetros
+experimentales medidos, o una caracterización interferométrica del espejo deformable)
+permitiría desacoplar la calidad del método de corrimiento de puntos de la del software de
+referencia y constituye una extensión deseable del análisis cuantitativo.
+
+\paragraph{Incertidumbre del posicionamiento del sensor: análisis preliminar.} Los
+resultados aquí reportados están sujetos a las precisiones del control mecánico del
+barrido: el ángulo del sensor depende de la resolución del goniómetro y de la platina
+AP180 (Sección~\ref{sec:control-desplazamiento-altura}), y el paso de cada corrimiento,
+de la repetibilidad bidireccional del servomotor. El Apéndice~\ref{ap:propagacion} sigue
+cómo entran estas dos incertidumbres en el método. Ninguna de las dos altera las
+pendientes medidas, porque la aberración transversal se obtiene lente a lente; su efecto
+real recae sobre el tamaño del paso de integración $h$, que queda con una incertidumbre
+$\delta h = \pm 3.2~\mu$m (el doble de la repetibilidad de la platina; el ángulo aporta a
+lo sumo $0.5~\mu$m). Propagado dentro de la reconstrucción, paso a paso, ese $\delta h$ introduce
+un error de unos $20$~nm por paso de integración, que depende directamente de la
+inclinación local del frente de onda y llega a $55$~nm en los nodos más empinados; una
+comprobación numérica preliminar con los datos de las tres evaluaciones sitúa su efecto
+sobre el frente de onda reconstruido por debajo de $20$~nm, unas siete veces menor que
+el residuo RMS reportado. El tratamiento estadístico de este trabajo se limitó a los valores
+RMS y PV de la diferencia, que contienen este error junto con los demás. Quedan para la
+continuación el análisis estadístico completo de la propagación y la medición del ruido
+del centroide, con capturas repetidas sin mover el sensor, uno de los términos que
+faltan para cerrar el presupuesto de error. Tampoco se estudió la repetibilidad de una
+evaluación completa repetida desde la alineación inicial; es de esperar que una nueva
+alineación produzca el mismo frente de onda reconstruido salvo una traslación espacial,
+pero esta conjetura no fue puesta a prueba.
 
 \paragraph{Métodos de reconstrucción más sofisticados.} La integración por la regla del
 trapecio sobre caminos voraces (un método simple y confiable) fue escogida como la opción
@@ -3068,31 +3114,6 @@ interpolación con información adicional que sí podrían aprovechar simultáne
 información del muestreo en todas las direcciones de la pupila. Explorar este camino,
 comparando el residuo obtenido con cada esquema de reconstrucción frente al ya reportado,
 es una línea natural de continuación.
-
-\paragraph{Validación contra una referencia distinta a la del fabricante.} Los datos de
-este trabajo no permiten establecer cuál de las dos reconstrucciones (la del método de
-corrimiento de puntos o la del fabricante) es más confiable en términos absolutos: la
-métrica empleada es relativa y ambas reconstrucciones comparten la misma cadena de
-medición (mismo sensor, mismo haz, mismos centroides), por lo que sus errores comunes se
-cancelan parcialmente al compararlas. La métrica de fidelidad reportada en este trabajo se
-construye contra la reconstrucción que entrega el software del fabricante sobre las mismas
-mediciones; esta elección hace que la validación quede acotada por la propia incertidumbre
-del algoritmo del fabricante. Una validación cruzada contra una referencia independiente
-(por ejemplo, una simulación numérica del mismo frente de onda con los parámetros
-experimentales medidos, o una caracterización interferométrica del espejo deformable)
-permitiría desacoplar la calidad del método de corrimiento de puntos de la del software de
-referencia y constituye una extensión deseable del análisis cuantitativo.
-
-\paragraph{Medición de una superficie calibrada.} Las evaluaciones de este trabajo emplean
-el espejo deformable como generador de frentes de onda repetibles pero no conocidos en
-sentido absoluto (Sección~\ref{sec:sistema-optico}), y, aun con la compensación de
-histéresis por software del controlador (Capítulo 3), la respuesta del espejo está sujeta
-a efectos de histéresis residual y relajación propios de los actuadores piezoeléctricos,
-de modo que la forma real del espejo no se conoce con exactitud. Medir una superficie
-calibrada de forma conocida (un elemento óptico certificado en lugar del espejo
-deformable) permitiría una validación absoluta del método, independiente tanto del
-software de referencia como de la incertidumbre en la forma que el espejo realmente
-adopta.
 
 \appendix
 
@@ -3262,6 +3283,168 @@ la Sección~\ref{sec:convencion-zernike}), no coeficientes de Zernike calculados
 reconstrucción. La calibración fina del espejo y la determinación cuantitativa del frente
 de onda generado para cada combinación de actuadores queda fuera del alcance de esta tesis
 (Sección~\ref{sec:sistema-optico}).
+
+\chapter[Propagación del error]{Propagación del error de posicionamiento del sensor}\label{ap:propagacion}
+
+Este apéndice sigue, con las ecuaciones del método y con unidades, cómo los errores del
+control mecánico del barrido (el paso de la platina y el ángulo del sensor) entran en la
+reconstrucción, y deja un valor de referencia del error que introducen en un paso de
+integración. Es un análisis preliminar: no sustituye un tratamiento estadístico completo,
+que queda como trabajo futuro (Sección~\ref{sec:trabajo-futuro}).
+
+\section{Qué se mide y qué se coloca}\label{sec:ap-donde}
+
+La aberración transversal se obtiene lente a lente: el software entrega el centroide de
+cada microlente y la Ec.~\ref{eq:aberracion-transversal} lo resta del centro nominal de
+esa misma microlente, $T_x = x_\ell - x_c$, $T_y = y_\ell - y_c$. Esa resta es local y no
+sabe cuánto se movió la platina ni a qué ángulo. El corrimiento interviene después, al
+decidir \emph{dónde} se coloca cada muestra en el arreglo canónico desplazado
+(Ec.~\ref{eq:aplicacion-sigma}); formalmente, como el desplazamiento se suma a centroide
+y centro, $T' = (x_\ell + \Delta x) - (x_c + \Delta x) = T$. Por lo tanto, un error en el
+paso o en el ángulo no cambia ninguna pendiente medida: cambia la posición que se asigna
+a la muestra y, a través de ella, el paso $\mathbf{h}$ con que se integra.
+
+\section{El desplazamiento y su incertidumbre}\label{sec:ap-magnitud}
+
+La captura $k$ se desplaza $R_k = k\,\sigma$ a lo largo de la dirección de barrido
+$\theta$, con $\sigma = P_L/\sqrt{\varepsilon}$ (Ec.~\ref{eq:distdesp}): $\sigma =
+67.1~\mu$m para $\varepsilon = 5$ ($k = -2,\dots,+2$, $|R_k| \le 134~\mu$m) y
+$47.4~\mu$m para $\varepsilon = 10$ ($k = -4,\dots,+5$, $|R_k| \le 237~\mu$m). Sus
+componentes en el sensor son las de la Ec.~\ref{eq:desplazamiento-cartesiano},
+\begin{equation}
+\Delta x_k = R_k \cos\theta, \qquad \Delta y_k = R_k \sen\theta ,
+\label{eq:ap-dxdy}
+\end{equation}
+con $\theta = 26.57^\circ$ para $(m,n) = (1,2)$ y $18.43^\circ$ para $(1,3)$. Dos
+cantidades llevan incertidumbre: la distancia $R_k$, para la que se toma como cota la
+repetibilidad bidireccional de la platina, $\Delta R = 1.6~\mu$m
+(Tabla~\ref{tab:ap-mecanico}), y el ángulo, con $\Delta\theta$; como valor de trabajo se
+usa $\Delta\theta = 13'$, lo que puede quedar de la precisión de la AP180 ($\pm 18'$)
+tras corregirla con la resolución del goniómetro ($5'$). Diferenciando la
+Ec.~\ref{eq:ap-dxdy},
+\begin{align}
+\delta(\Delta x_k) &= \cos\theta\,\Delta R - R_k \sen\theta\,\Delta\theta, \label{eq:ap-ddx}\\
+\delta(\Delta y_k) &= \sen\theta\,\Delta R + R_k \cos\theta\,\Delta\theta . \label{eq:ap-ddy}
+\end{align}
+Geométricamente, $\Delta R$ es un error \emph{a lo largo} del barrido y $R_k\Delta\theta$
+un error \emph{transversal}: el producto de la distancia recorrida (en mm) por el ángulo
+(en radianes, adimensional) es una longitud. La conversión de minutos de arco es
+$\Delta\theta\,[\text{rad}] = \Delta\theta\,['] \times \pi/(180\times 60) = \Delta\theta\,[']
+\times 2.909\times10^{-4}$; para $13'$, $\Delta\theta = 3.78\times10^{-3}$~rad. En el
+corrimiento más lejano, $R_k\Delta\theta = 0.134~\text{mm}\times 3.78\times10^{-3} =
+0.51~\mu$m ($\varepsilon = 5$) y $0.90~\mu$m ($\varepsilon = 10$): el error transversal es
+menor que el de la platina, y sólo se le acerca en los corrimientos más largos. La
+Tabla~\ref{tab:ap-delta} evalúa las Ecs.~\ref{eq:ap-ddx} y~\ref{eq:ap-ddy} en el peor
+caso (los dos términos con el mismo signo).
+
+\begin{table}[htbp]
+\centering
+\caption{Incertidumbre de posición de las capturas desplazadas, en el corrimiento más
+lejano, con $\Delta R = 1.6~\mu$m y $\Delta\theta = 13'$. Los dos términos de las
+Ecs.~\ref{eq:ap-ddx} y~\ref{eq:ap-ddy} se suman en valor absoluto (cota máxima).}
+\label{tab:ap-delta}
+\small
+\begin{tabular}{lcc}
+\hline
+\textbf{Cantidad} & $\boldsymbol{\varepsilon = 5}$ \textbf{(Evals.\ 1 y 2)} & $\boldsymbol{\varepsilon = 10}$ \textbf{(Eval.\ 3)} \\
+\hline
+$\theta$ ($\cos\theta$, $\sen\theta$) & $26.57^\circ$ ($0.894$, $0.447$) & $18.43^\circ$ ($0.949$, $0.316$) \\
+$|R_k|$ máximo                        & $134~\mu$m & $237~\mu$m \\
+A lo largo del barrido, $\Delta R$     & $1.6~\mu$m & $1.6~\mu$m \\
+Transversal, $R_k\Delta\theta$         & $0.51~\mu$m & $0.90~\mu$m \\
+$|\delta(\Delta x_k)|$, Ec.~\ref{eq:ap-ddx} & $1.43 + 0.23 = 1.66~\mu$m & $1.52 + 0.28 = 1.80~\mu$m \\
+$|\delta(\Delta y_k)|$, Ec.~\ref{eq:ap-ddy} & $0.72 + 0.45 = 1.17~\mu$m & $0.51 + 0.85 = 1.36~\mu$m \\
+\hline
+\end{tabular}
+\end{table}
+
+La Tabla~\ref{tab:ap-delta} acota la posición de cada captura por separado; el paso de
+integración, como se ve a continuación, depende sólo de diferencias entre capturas.
+
+\section{El paso de integración y su incertidumbre}\label{sec:ap-paso}
+
+El paso $i$ de la regla del trapecio une dos nodos consecutivos del camino,
+\begin{equation}
+\mathbf{h}_i = \mathbf{r}_{i+1} - \mathbf{r}_i = (h_x, h_y),
+\label{eq:ap-h}
+\end{equation}
+que en el patrón densificado pertenecen a capturas distintas y distan nominalmente
+$|\mathbf{h}_i| = \sigma$ (el paso es la misma distancia entre corrimientos). Como el paso
+es una resta de dos posiciones, su incertidumbre es la suma de las de los dos nodos. A lo
+largo del barrido cada nodo lleva $\Delta R$ con signo desconocido, así que
+\begin{equation}
+|\delta h_\parallel| \le 2\,\Delta R = 3.2~\mu\text{m},
+\label{eq:ap-dh-par}
+\end{equation}
+es decir, $h_\parallel = 67.1 \pm 3.2~\mu$m para $\varepsilon = 5$ y $47.4 \pm 3.2~\mu$m
+para $\varepsilon = 10$. En la dirección transversal las dos capturas comparten el mismo ángulo $\Delta\theta$, de
+modo que la resta cancela la mayor parte del error: entre las capturas $k$ y $k'$,
+$\delta h_\perp = k'\sigma\Delta\theta - k\sigma\Delta\theta = |k' - k|\,\sigma\Delta\theta$,
+con $\sigma\Delta\theta = 0.25~\mu$m ($\varepsilon = 5$) y $0.18~\mu$m ($\varepsilon = 10$) para
+$13'$. En el patrón densificado dos nodos vecinos distan a lo sumo dos capturas en
+$\varepsilon = 5$ y tres en $\varepsilon = 10$, así que $\delta h_\perp \le 0.5~\mu$m en
+ambos casos. El término que domina es, por tanto, el de la platina, $\delta h_\parallel =
+3.2~\mu$m; en componentes del sensor se reparte como $\delta h_x = \delta h_\parallel
+\cos\theta$ y $\delta h_y = \delta h_\parallel \sen\theta$ ($2.9$ y $1.4~\mu$m en
+$(1,2)$; $3.0$ y $1.0~\mu$m en $(1,3)$).
+
+\section{Contribución a un paso de integración}\label{sec:ap-pendiente}
+
+Escrita por componentes, la contribución de un paso a la Ec.~\ref{eq:trapecio_2} es
+\begin{equation}
+\Delta W_i = \frac{(T_x^{(i)} + T_x^{(i+1)})\,h_x + (T_y^{(i)} + T_y^{(i+1)})\,h_y}{2 f_L} ,
+\label{eq:ap-paso-W}
+\end{equation}
+con las aberraciones transversales en milímetros, el paso en milímetros y
+$f_L = 4.1$~mm, de modo que $\Delta W_i$ queda en milímetros. Como las $T$ no cargan el
+error de posicionamiento (Sección~\ref{sec:ap-donde}), el único término que cambia es el
+paso, y el error introducido en cada paso es
+\begin{equation}
+\delta(\Delta W_i) = \frac{(T_x^{(i)} + T_x^{(i+1)})\,\delta h_x + (T_y^{(i)} + T_y^{(i+1)})\,\delta h_y}{2 f_L}
+\le \bigl(|\mathbf{T}^{(i)}| + |\mathbf{T}^{(i+1)}|\bigr)\,\frac{\delta h_\parallel}{2 f_L} ,
+\label{eq:ap-dif-paso}
+\end{equation}
+donde la desigualdad toma los módulos de las aberraciones transversales y por eso es una
+cota por exceso (el error del paso sólo cuenta en la dirección de $\mathbf{T}$). El factor $\delta h_\parallel/(2 f_L) = 3.2~\mu\text{m}/(2\times 4100~\mu\text{m}) =
+3.9\times10^{-4}$ es adimensional y es el mismo en todas las evaluaciones: cada micrómetro
+de aberración transversal sumada de los dos nodos produce $0.39$~nm de error en el paso.
+Para ponerle número, en las tres evaluaciones la aberración transversal, una vez removida
+la inclinación media, tiene magnitud típica (RMS) de $22$ a $29~\mu$m y máxima de $52$ a
+$70~\mu$m, así que $T^{(i)} + T^{(i+1)}$ vale unos $45$--$55~\mu$m en un nodo típico y
+hasta $105$--$140~\mu$m en los más inclinados. El valor de referencia es entonces
+\begin{equation}
+\delta(\Delta W_i) \approx 50~\mu\text{m} \times 3.9\times10^{-4} \approx 20~\text{nm por paso},
+\label{eq:ap-referencia}
+\end{equation}
+y de hasta $55$~nm en los nodos más inclinados. El término transversal, con
+$\delta h_\perp \le 0.5~\mu$m, es al menos seis veces menor.
+
+\section{Cómo se acumula a lo largo del camino}\label{sec:ap-integracion}
+
+El frente de onda en un nodo es la suma de los pasos de su camino, $W(\mathbf{r}_p) =
+\sum_i \Delta W_i$, con caminos de entre $29$ y $63$ nodos en las tres evaluaciones. Si
+los errores de todos los pasos tuvieran el mismo signo y el valor máximo, la suma crecería
+hasta $N \times 55$~nm, del orden de micrómetros en los nodos más lejanos. Esa cota no se
+alcanza, porque los errores de pasos consecutivos no son independientes: el paso $i$
+termina en el mismo nodo donde empieza el paso $i+1$, y el error de posición de ese nodo
+entra en el primero con signo positivo y en el segundo con signo negativo
+(Ec.~\ref{eq:ap-h}), de modo que las contribuciones de la platina tienden a cancelarse
+entre pasos vecinos en lugar de acumularse. El tratamiento completo de esa correlación y
+su estadística queda como trabajo futuro; como referencia, el residuo medido entre la
+reconstrucción y la de Thorlabs, que contiene éste y todos los demás errores, es de
+$0.13$ a $0.15~\mu$m RMS sobre toda la pupila (Tabla~\ref{tab:cap5-comparativa-evals}),
+y una comprobación numérica preliminar con los datos de las tres evaluaciones (a cada
+captura desplazada se le atribuyó la pendiente del frente de onda en la posición
+desplazada por su error,
+con todos los patrones de signo de $\pm\Delta R$ y con $\Delta\theta = 13'$, se volvió a
+integrar por los mismos caminos y se comparó nodo a nodo con la corrida original) da una
+diferencia máxima de $18$~nm sobre el frente de onda reconstruido y de $1$ a $2$~nm sobre
+el RMS de la diferencia: los $20$~nm por paso no se acumulan linealmente.
+
+El error que queda fuera de este análisis es el ruido del centroide, que entra
+directamente en la aberración transversal (Ec.~\ref{eq:aberracion-transversal}) y no es
+invariante al corrimiento; no se midió en este trabajo (hay una sola captura por
+posición) y es uno de los términos que faltan para cerrar el presupuesto de error.
 
 
 \addcontentsline{toc}{chapter}{Bibliografía}
