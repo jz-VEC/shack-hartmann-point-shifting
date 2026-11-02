@@ -45,69 +45,40 @@
 
 \begin{document}
 
-	\begin{titlepage}
-		\thispagestyle{empty}
-		% Los elementos administrativos privados se cargan solo cuando están disponibles.
-		\IfFileExists{private/frontmatter-approval.tex}{%
-			\input{private/frontmatter-approval.tex}%
-		}{}
-		\begin{minipage}[c][0.17\textheight][c]{0.25\textwidth}
-			\begin{center}
-
-
-			\end{center}
-		\end{minipage}
-		\begin{minipage}[c][0.195\textheight][t]{0.75\textwidth}
-			\begin{center}
-				\vspace{0.3cm}
-				\textsc{\large \textbf{UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO} \\	ciudad universitaria}\\[0.5cm]
-				\vspace{0.3cm}
-				\hrule height2.5pt
-				\vspace{.2cm}
-				\hrule height1pt
-				\vspace{.8cm}
-				\textsc{Maestría en ingeniería eléctrica - instrumentación óptica\\}
-				\vspace{1.5cm} %
-			\end{center}
-		\end{minipage}
-	
-	 \begin{minipage}[c][0.81\textheight][t]{0.25\textwidth} 
-		\vspace*{5mm}
-		\begin{center}
-			\hskip2.0mm
-			\vrule width1pt height13cm 
-			\vspace{5mm}
-			\hskip2pt
-			\vrule width2.5pt height13cm
-			\hskip2mm
-			\vrule width1pt height13cm \\
-			\vspace{5mm}
-			
-		\end{center}
-	\end{minipage}
-\begin{minipage}[c][0.81\textheight][t]{0.75\textwidth}
-	\begin{center}
-		\vspace{1cm}
-		
-		{\large\scshape  \textbf{SHACK-HARTMANN CON CORRIMIENTO DE PUNTOS}}\\[.2in]
-		
-		\vspace{2cm}            
-		
-		\textsc{\LARGE T\hspace{1.5cm}E\hspace{1.5cm}S\hspace{1.5cm}I\hspace{1.5cm}S}\\[0.5cm]
-		\textsc{\large que para obtener el t\'itulo de:}\\[0.5cm]
-		\textsc{\large Maestro en ingeniería}\\[0.5cm]
-		\textsc{\large presenta:}\\[0.5cm]
-		\textsc{\large {Carlos Enrique Valderrama Juárez}}\\[2cm]          
-		
-		\vspace{0.5cm}
-		
-		{\large\scshape Tutor:\\[0.3cm] {Dr. José Rufino Díaz Uribe}}\\[.2in]
-		
-		\vspace{0.5cm}
-		
-		\large{Ciudad de México, México,}{ }{2026}
-	\end{center}
-\end{minipage}
+% --- Portada en el formato obligatorio de la DGB-UNAM (instructivo nivel posgrado, tesis). Parámetros: ---
+\newcommand{\MESEXAMEN}{NOVIEMBRE}      % mes tentativo del examen, en mayúsculas
+\newcommand{\VistoBuenoEnPortada}{0}    % 1: superpone el visto bueno del director (private/frontmatter-approval.tex); 0: portada limpia para la DGB
+\widowpenalty=10000 \clubpenalty=10000  % sin líneas viudas ni huérfanas en todo el documento (instructivo DGB)
+\begin{titlepage}
+\thispagestyle{empty}
+\ifnum\VistoBuenoEnPortada=1
+  \IfFileExists{private/frontmatter-approval.tex}{\input{private/frontmatter-approval.tex}}{}
+\fi
+\centering
+\vspace*{-0.8cm}
+% La portada usa una caja más ancha que el cuerpo del texto, centrada en la página
+\makebox[\textwidth][c]{\begin{minipage}{16.5cm}\centering
+\includegraphics[height=3.2cm]{escudo-unam}\\[0.4cm]
+{\large\bfseries UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO}\\[0.3cm]
+{\large PROGRAMA DE MAESTRÍA Y DOCTORADO EN INGENIERÍA}\\[0.15cm]
+{\large INSTITUTO DE CIENCIAS APLICADAS Y TECNOLOGÍA}\\[0.15cm]
+INGENIERÍA ELÉCTRICA -- INSTRUMENTACIÓN\\[0.4cm]
+{\centering\rule{0.9\linewidth}{1.6pt}\\[2.5pt]\rule{0.9\linewidth}{0.5pt}\par}
+\vspace{0.7cm}
+{\Large\bfseries SHACK-HARTMANN\\[0.15cm]CON CORRIMIENTO DE PUNTOS\par}
+\vspace{0.8cm}
+{\Large\bfseries T\hspace{0.9em}E\hspace{0.9em}S\hspace{0.9em}I\hspace{0.9em}S\par}
+\vspace{0.35cm}
+QUE PARA OPTAR POR EL GRADO DE:\\[0.2cm]
+{\large\bfseries MAESTRO EN INGENIERÍA}\\[0.45cm]
+PRESENTA:\\[0.2cm]
+{\large\bfseries CARLOS ENRIQUE VALDERRAMA JUÁREZ}\\[0.7cm]
+TUTOR PRINCIPAL:\\[0.15cm]
+{\large DR. JOSÉ RUFINO DÍAZ URIBE}\\[0.1cm]
+INSTITUTO DE CIENCIAS APLICADAS Y TECNOLOGÍA, UNAM\\[0.7cm]
+CIUDAD UNIVERSITARIA, CD. MX., \MESEXAMEN{} DE 2026
+\end{minipage}}
+\vfill
 \end{titlepage}
 
 
@@ -3447,7 +3418,8 @@ invariante al corrimiento; no se midió en este trabajo (hay una sola captura po
 posición) y es uno de los términos que faltan para cerrar el presupuesto de error.
 
 
-\addcontentsline{toc}{chapter}{Bibliografía}
+\renewcommand{\bibname}{Referencias} % los documentos citados van bajo «Referencias» (instructivo DGB)
+\addcontentsline{toc}{chapter}{Referencias}
 \begin{thebibliography}{100}
 	
 	\bibitem{Shack}
